@@ -48,7 +48,7 @@ function getAnchorAttributes(filePath, linkTitle) {
     fileName = fileName.replaceAll("&amp;", "&");
 
     if (fileName.includes("Storage Models")) {
-        console.log(fileName);
+       // console.log(fileName);
 
     }
 
@@ -64,7 +64,7 @@ function getAnchorAttributes(filePath, linkTitle) {
             ? `${startPath}${fileName}`
             : `${startPath}${fileName}.md`;
         if (fullPath.includes("Storage Models")) {
-            console.log("尝试读取路径：", fullPath);
+            //console.log("尝试读取路径：", fullPath);
         }
         const file = fs.readFileSync(fullPath, "utf8");
         const frontMatter = matter(file);
@@ -706,9 +706,10 @@ function embedPdfPlugin(md) {
 }
 
 /**
- * Done[2025-05-16](QingZhiLiangCheng): 增加视频渲染代码
+ * Done[2025-08-16](QingZhiLiangCheng): 增强视频渲染插件
  */
 function embedVideoPlugin(md) {
+    // 匹配 ![[xxx.mp4]]、![[xxx.webm]]、![[xxx.ogg]]
     const VIDEO_REGEX = /!\[\[(.+\.(mp4|webm|ogg))\]\]/i;
 
     function videoEmbedReplace(state) {
@@ -717,29 +718,35 @@ function embedVideoPlugin(md) {
             if (token.type !== "inline" || !token.content) continue;
 
             const match = token.content.match(VIDEO_REGEX);
-            if (match) {
-                const videoPath = match[1];
-                const containerId = `video-container-${blkIdx}`;
-                const videoUrl = `/video/${videoPath}`;
+            if (!match) continue;
 
-                const embedToken = new state.Token("html_inline", "", 0);
+            const videoPath = match[1];
+            const containerId = `video-container-${blkIdx}`;
+            const videoUrl = `/video/${videoPath}`;
 
-                embedToken.content = `
+            const embedToken = new state.Token("html_inline", "", 0);
+
+            embedToken.content = `
 <div class="video-container" id="${containerId}">
   <div style="font-size: 1rem; color: #666;">🎞️ 正在加载视频...</div>
 </div>
 <script>
-  (function() {
-    const container = document.getElementById("${containerId}");
-    const url = "${videoUrl}";
+  (function(videoPath, videoUrl, containerId) {
+    const container = document.getElementById(containerId);
 
-    fetch(url, { method: "HEAD" })
+    fetch(videoUrl, { method: "HEAD" })
       .then(res => {
         if (res.ok) {
+          // 根据文件后缀自动设置 type
+          const ext = videoPath.split('.').pop().toLowerCase();
+          let mimeType = "video/mp4";
+          if (ext === "webm") mimeType = "video/webm";
+          else if (ext === "ogg") mimeType = "video/ogg";
+
           container.innerHTML = \`
             <video controls width="100%" style="max-height: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-              <source src="\${url}" type="video/mp4" />
-              <p>⚠️ 你的浏览器不支持视频播放，请下载后观看：<a href="\${url}">\${videoPath}</a></p>
+              <source src="\${videoUrl}" type="\${mimeType}" />
+              <p>⚠️ 你的浏览器不支持视频播放，请下载后观看：<a href="\${videoUrl}">\${videoPath}</a></p>
             </video>
           \`;
         } else {
@@ -762,7 +769,7 @@ function embedVideoPlugin(md) {
           \`;
         }
       })
-      /*.catch(() => {
+      .catch(() => {
         container.innerHTML = \`
           <div style="
             background-color: #fdf0f0;
@@ -778,13 +785,12 @@ function embedVideoPlugin(md) {
             <p style="font-size: 1.1rem;">可能是网络问题或服务器出错，请稍后再试。</p>
           </div>
         \`;
-      });*/
-  })();
+      });
+  })("${videoPath}", "${videoUrl}", "${containerId}");
 </script>
 `;
 
-                state.tokens.splice(blkIdx, 1, embedToken);
-            }
+            state.tokens.splice(blkIdx, 1, embedToken);
         }
     }
 
