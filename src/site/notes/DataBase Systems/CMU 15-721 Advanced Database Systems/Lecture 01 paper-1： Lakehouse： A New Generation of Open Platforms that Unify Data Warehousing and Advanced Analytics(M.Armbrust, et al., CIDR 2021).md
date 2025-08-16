@@ -1,8 +1,10 @@
 ---
-{"tags":["CMU15721"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.120+08:00","updated":"2025-07-03T20:34:43.828+08:00"}
+{"tags":["CMU15721"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.120+08:00","updated":"2025-08-16T20:26:13.565+08:00"}
 ---
 
 ![[armbrust-cidr21.pdf]]
+
+
 
 ### Abstract
 这篇论文认为，我们目前的传统数据仓库架构将会被一种新的架构模式——Lakehouse所取代，并且论述了Lakehouse的创新点和如何影响数据库管理领域的，最终通过TPC-DS测试(这是评估数据仓库查询性能的标准测试) 结果说明其能与当前流行的主流云数据库想媲美。
