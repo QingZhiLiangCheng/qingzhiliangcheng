@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT4 BAGS, QUERES, AND STACKS/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-01-17T15:04:22.209+08:00","updated":"2025-03-30T15:32:30.309+08:00"}
+{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT4 BAGS, QUERES, AND STACKS/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:17.894+08:00","updated":"2025-03-30T15:32:30.309+08:00"}
 ---
 
 

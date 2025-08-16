@@ -1,5 +1,5 @@
 ---
-{"tags":["folder","LCU机组"],"sticker":"emoji//1f3e2","dg-publish":true,"dg-pinned":true,"permalink":"/LCU principles of computer composition/LCU principles of computer composition/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2024-09-22T19:30:09.057+08:00","updated":"2025-08-09T15:13:50.677+08:00"}
+{"tags":["folder","LCU机组"],"sticker":"emoji//1f3e2","dg-publish":true,"dg-pinned":true,"permalink":"/LCU principles of computer composition/LCU principles of computer composition/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:29.262+08:00","updated":"2025-08-09T15:13:50.677+08:00"}
 ---
 
 📅date: 2024.10.30 - 2025.01.03完结✅

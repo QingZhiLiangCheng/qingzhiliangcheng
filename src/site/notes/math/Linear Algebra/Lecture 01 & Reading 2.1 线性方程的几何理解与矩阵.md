@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 01 & Reading 2.1 线性方程的几何理解与矩阵/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-25T17:17:01.452+08:00","updated":"2025-07-28T11:25:28.134+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 01 & Reading 2.1 线性方程的几何理解与矩阵/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.038+08:00","updated":"2025-07-28T11:25:28.134+08:00"}
 ---
 
 2.1实际上是讨论了对简单的n个方程n个未知数的两种不同的视角：row picture, column picture, 并且介绍了方差与矩阵之间的关系

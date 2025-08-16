@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["lab","cs61b"],"permalink":"/CS 61B/Lab 01 Setup/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-06T15:54:58.228+08:00","updated":"2025-04-19T09:50:05.984+08:00"}
+{"dg-publish":true,"tags":["lab","cs61b"],"permalink":"/CS 61B/Lab 01 Setup/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:18.262+08:00","updated":"2025-04-19T09:50:05.984+08:00"}
 ---
 
 

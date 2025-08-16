@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 04 多处理器编程：理解并发程序执行/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-02T10:40:31.062+08:00","updated":"2025-08-02T11:55:50.107+08:00"}
+{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 04 多处理器编程：理解并发程序执行/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.527+08:00","updated":"2025-08-02T11:55:50.107+08:00"}
 ---
 
 上节课是讲了第一个并发程序，第一个线程库，第一个并发程序的状态机

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT1 Course Introduce ALGORITHMS, PART I AND II/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-01-07T15:15:49.759+08:00","updated":"2025-03-30T15:32:10.454+08:00"}
+{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT1 Course Introduce ALGORITHMS, PART I AND II/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:17.843+08:00","updated":"2025-03-30T15:32:10.454+08:00"}
 ---
 
 

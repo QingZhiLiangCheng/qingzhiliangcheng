@@ -1,5 +1,5 @@
 ---
-{"tags":["notes"],"dg-publish":true,"permalink":"/libiry/passages/2025年暑假的ideas/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-05T16:12:16.432+08:00","updated":"2025-07-13T22:51:07.329+08:00"}
+{"tags":["notes"],"dg-publish":true,"permalink":"/libiry/passages/2025年暑假的ideas/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:29.752+08:00","updated":"2025-07-13T22:51:07.329+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"week":"第三周","dg-publish":true,"tags":["week3","cmu15445"],"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 05 Storage Models & Compression/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-03T13:51:23.823+08:00","updated":"2025-07-28T15:55:59.546+08:00"}
+{"week":"第三周","dg-publish":true,"tags":["week3","cmu15445"],"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 05 Storage Models & Compression/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:18.917+08:00","updated":"2025-07-28T15:55:59.546+08:00"}
 ---
 
 

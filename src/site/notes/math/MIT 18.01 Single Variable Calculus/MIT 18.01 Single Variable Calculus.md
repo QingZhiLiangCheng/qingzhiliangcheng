@@ -1,5 +1,5 @@
 ---
-{"tags":["MIT1801"],"dg-publish":true,"permalink":"/math/MIT 18.01 Single Variable Calculus/MIT 18.01 Single Variable Calculus/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-06-28T18:30:11.568+08:00","updated":"2025-06-30T21:23:19.613+08:00"}
+{"tags":["MIT1801"],"dg-publish":true,"permalink":"/math/MIT 18.01 Single Variable Calculus/MIT 18.01 Single Variable Calculus/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.100+08:00","updated":"2025-06-30T21:23:19.613+08:00"}
 ---
 
 在MIT的Open Course Ware中提供了Lecture的video，notes和题目

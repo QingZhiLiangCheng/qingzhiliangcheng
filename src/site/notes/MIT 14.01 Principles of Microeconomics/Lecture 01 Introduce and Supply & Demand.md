@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/MIT 14.01 Principles of Microeconomics/Lecture 01 Introduce and Supply & Demand/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-05T21:12:18.991+08:00","updated":"2025-04-09T11:17:41.812+08:00"}
+{"dg-publish":true,"permalink":"/MIT 14.01 Principles of Microeconomics/Lecture 01 Introduce and Supply & Demand/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.259+08:00","updated":"2025-04-09T11:17:41.812+08:00"}
 ---
 
 

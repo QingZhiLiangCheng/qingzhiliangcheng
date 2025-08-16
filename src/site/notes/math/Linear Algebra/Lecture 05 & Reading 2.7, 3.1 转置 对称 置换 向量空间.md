@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 05 & Reading 2.7, 3.1 转置 对称 置换 向量空间/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-06T13:01:58.768+08:00","updated":"2025-08-09T17:07:04.162+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 05 & Reading 2.7, 3.1 转置 对称 置换 向量空间/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.062+08:00","updated":"2025-08-09T17:07:04.162+08:00"}
 ---
 
 

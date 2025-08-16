@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 04 & Reading 2.6 矩阵的LU, LRU分解/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-04T10:26:11.536+08:00","updated":"2025-08-04T12:08:26.171+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 04 & Reading 2.6 矩阵的LU, LRU分解/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.056+08:00","updated":"2025-08-04T12:08:26.171+08:00"}
 ---
 
 以一种新的思路审视高斯消元 
