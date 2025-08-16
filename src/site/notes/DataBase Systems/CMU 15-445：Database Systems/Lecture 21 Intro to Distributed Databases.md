@@ -1,5 +1,5 @@
 ---
-{"tags":["cmu15445"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 21 Intro to Distributed Databases/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-16T16:10:45.043+08:00","updated":"2025-07-16T20:51:56.948+08:00"}
+{"tags":["cmu15445"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 21 Intro to Distributed Databases/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.045+08:00","updated":"2025-07-16T20:51:56.948+08:00"}
 ---
 
 

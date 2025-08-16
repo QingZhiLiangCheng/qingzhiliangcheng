@@ -1,5 +1,5 @@
 ---
-{"week":"第一周","dg-publish":true,"tags":["week1","cs61b"],"permalink":"/CS 61B/Lecture 01 Introduce/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-02T21:51:18.307+08:00","updated":"2025-04-19T09:49:58.589+08:00"}
+{"week":"第一周","dg-publish":true,"tags":["week1","cs61b"],"permalink":"/CS 61B/Lecture 01 Introduce/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:18.272+08:00","updated":"2025-04-19T09:49:58.589+08:00"}
 ---
 
 

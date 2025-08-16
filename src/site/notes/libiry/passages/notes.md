@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/libiry/passages/notes/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:29.757+08:00","updated":"2025-08-09T17:12:55.566+08:00"}
+{"dg-publish":true,"permalink":"/libiry/passages/notes/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:29.757+08:00","updated":"2025-08-16T18:47:57.560+08:00"}
 ---
 
 
@@ -9,3 +9,4 @@
 [[libiry/passages/周记03｜2025.07.21 - 07.27 暑假的第四周 Notion计划的一周\|周记03｜2025.07.21 - 07.27 暑假的第四周 Notion计划的一周]]
 [[libiry/passages/周记04｜2025.07.28 - 08.03 暑假第五周\|周记04｜2025.07.28 - 08.03 暑假第五周]]
 [[libiry/passages/周记05｜2025.08.04 - 08.10 暑假第六周 作息再次混乱 不想学习发呆中\|周记05｜2025.08.04 - 08.10 暑假第六周 作息再次混乱 不想学习发呆中]]
+[[libiry/passages/周记06｜2025.08.11 - 08.17 暑假第七周 摆烂的一周\|周记06｜2025.08.11 - 08.17 暑假第七周 摆烂的一周]]
