@@ -762,7 +762,7 @@ function embedVideoPlugin(md) {
           \`;
         }
       })
-      .catch(() => {
+      /*.catch(() => {
         container.innerHTML = \`
           <div style="
             background-color: #fdf0f0;
@@ -778,7 +778,7 @@ function embedVideoPlugin(md) {
             <p style="font-size: 1.1rem;">可能是网络问题或服务器出错，请稍后再试。</p>
           </div>
         \`;
-      });
+      });*/
   })();
 </script>
 `;
