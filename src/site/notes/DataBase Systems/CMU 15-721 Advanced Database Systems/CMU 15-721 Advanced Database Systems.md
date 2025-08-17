@@ -1,5 +1,5 @@
 ---
-{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.106+08:00","updated":"2025-08-16T20:26:15.545+08:00"}
+{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.106+08:00","updated":"2025-08-17T13:20:27.925+08:00"}
 ---
 
 
@@ -9,5 +9,5 @@
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 lecture：Modern Analytical Database Systems\|Lecture 01 lecture：Modern Analytical Database Systems]]
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-2：The Composable Data Management System Manifesto(P.Pedreira, et al., VLDB 2023)\|Lecture 01 paper-2：The Composable Data Management System Manifesto(P.Pedreira, et al., VLDB 2023)]]
 - Lecture 02: Data Formats & Encoding I
-	- [[Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats \|Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats ]]
+	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats\|Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats]]
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 02 lecture：Data Formats & Encoding I\|Lecture 02 lecture：Data Formats & Encoding I]]
