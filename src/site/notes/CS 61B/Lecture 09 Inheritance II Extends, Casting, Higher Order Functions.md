@@ -1,7 +1,12 @@
 ---
-{"week":"第四周","dg-publish":true,"tags":["cs61b","week4"],"permalink":"/CS 61B/Lecture 09 Inheritance II Extends, Casting, Higher Order Functions/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-11T20:13:14.200+08:00","updated":"2025-04-19T09:50:59.074+08:00"}
+week: 第四周
+dg-publish: true
+tags:
+  - cs61b
+  - week4
+created: 2025-03-11T20:13:14.200+08:00
+updated: 2025-04-19T09:50:59.074+08:00
 ---
-
 
 继续讨论 Inheritance(继承)
 last lecture 讲的  只能继承 空白的函数声明  然后自己实现  -- interface  接口  implement

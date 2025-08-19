@@ -1,7 +1,12 @@
 ---
-{"week":"第六周","dg-publish":true,"tags":["cs61b","week6"],"permalink":"/CS 61B/Lecture 15 Asymptotics II/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-26T14:47:47.595+08:00","updated":"2025-04-19T09:51:30.008+08:00"}
+week: 第六周
+dg-publish: true
+tags:
+  - cs61b
+  - week6
+created: 2025-03-26T14:47:47.595+08:00
+updated: 2025-04-19T09:51:30.008+08:00
 ---
-
 ### For Loops
 **Loops Example 1**
 ```java

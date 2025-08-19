@@ -1,7 +1,12 @@
 ---
-{"week":"第一周","dg-publish":true,"tags":["cs61b","week1"],"permalink":"/CS 61B/Lecture 02 Defining and Using Classes/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-03T14:20:22.407+08:00","updated":"2025-04-19T09:49:54.300+08:00"}
+week: 第一周
+dg-publish: true
+tags:
+  - cs61b
+  - week1
+created: 2025-03-03T14:20:22.407+08:00
+updated: 2025-04-19T09:49:54.300+08:00
 ---
-
 
 ![[[61B SP24] Lecture 2 - Defining and Using Classes.pdf]]
 官方notes: [2. Defining and Using Classes | CS61B Textbook](https://cs61b-2.gitbook.io/cs61b-textbook/2.-defining-and-using-classes)

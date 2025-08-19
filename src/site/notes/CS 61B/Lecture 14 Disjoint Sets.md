@@ -1,7 +1,12 @@
 ---
-{"week":"第五周","dg-publish":true,"tags":["cs61b","week5"],"permalink":"/CS 61B/Lecture 14 Disjoint Sets/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-21T08:08:19.416+08:00","updated":"2025-04-19T09:51:23.107+08:00"}
+week: 第五周
+dg-publish: true
+tags:
+  - cs61b
+  - week5
+created: 2025-03-21T08:08:19.416+08:00
+updated: 2025-04-19T09:51:23.107+08:00
 ---
-
 从这个lecture开始 要开始解决一些列data structure 问题
 sets, maps, and priority queues.    how you implement to get good performance.
 

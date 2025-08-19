@@ -1,7 +1,12 @@
 ---
-{"week":"第三周","dg-publish":true,"tags":["cs61b","week3"],"permalink":"/CS 61B/Lecture 06 Testing/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-08T08:54:56.805+08:00","updated":"2025-04-19T09:50:32.182+08:00"}
+week: 第三周
+dg-publish: true
+tags:
+  - cs61b
+  - week3
+created: 2025-03-08T08:54:56.805+08:00
+updated: 2025-04-19T09:50:32.182+08:00
 ---
-
 
 ![[[61B SP24] Lecture 6 - Testing.pdf]] 
 

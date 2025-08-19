@@ -1,7 +1,12 @@
 ---
-{"week":"第二周","dg-publish":true,"tags":["cs61b","week2"],"permalink":"/CS 61B/Lecture 05 List III DLList and Arrays/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-07T10:12:16.731+08:00","updated":"2025-04-19T09:50:26.575+08:00"}
+week: 第二周
+dg-publish: true
+tags:
+  - cs61b
+  - week2
+created: 2025-03-07T10:12:16.731+08:00
+updated: 2025-04-19T09:50:26.575+08:00
 ---
-
 
 ![[[61B SP24] Lecture 5 - Lists 3_ DLLists and Arrays.pdf]]
 

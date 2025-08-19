@@ -1,7 +1,13 @@
 ---
-{"tags":["cs61b","project","gitlet","LCU-Java"],"dg-publish":true,"permalink":"/CS 61B/gitlet/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-05-10T17:18:19.142+08:00","updated":"2025-07-02T22:16:28.328+08:00"}
+tags:
+  - cs61b
+  - project
+  - gitlet
+  - LCU-Java
+dg-publish: true
+created: 2025-05-10T17:18:19.142+08:00
+updated: 2025-07-02T22:16:28.328+08:00
 ---
-
 **Author**: QingZhiLiangCheng    
 **Contributors**: QingZhiLiangCheng, ChengShi  
 **Since**: 2025-05-10    

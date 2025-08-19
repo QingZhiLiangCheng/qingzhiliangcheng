@@ -1,7 +1,12 @@
 ---
-{"week":"第五周","dg-publish":true,"tags":["cs61b","week5"],"permalink":"/CS 61B/Lecture 12 Introduce to Asymptotic Analysis/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-16T17:01:09.204+08:00","updated":"2025-04-19T09:51:15.117+08:00"}
+week: 第五周
+dg-publish: true
+tags:
+  - cs61b
+  - week5
+created: 2025-03-16T17:01:09.204+08:00
+updated: 2025-04-19T09:51:15.117+08:00
 ---
-
 跟普林斯顿 [[algorithm/Algorithm Princeton/UNIT3 Analysis of Algorithm\|UNIT3 Analysis of Algorithm]]撞了 感觉
 
 其实我觉得普林斯顿可能讲的更好 是从历史来讲的怎么简化的

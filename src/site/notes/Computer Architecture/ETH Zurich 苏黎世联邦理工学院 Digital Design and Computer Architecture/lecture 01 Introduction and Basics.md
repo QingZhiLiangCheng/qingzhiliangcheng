@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["ETH-Zurich-Computer-Architecture"],"permalink":"/Computer Architecture/ETH Zurich 苏黎世联邦理工学院 Digital Design and Computer Architecture/lecture 01 Introduction and Basics/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-21T16:19:02.880+08:00","updated":"2025-07-27T11:25:18.414+08:00"}
+{"dg-publish":true,"tags":["ETH-Zurich-Computer-Architecture"],"created":"2025-07-21T16:19:02.880+08:00","updated":"2025-07-27T11:25:18.414+08:00","permalink":"/Computer Architecture/ETH Zurich 苏黎世联邦理工学院 Digital Design and Computer Architecture/lecture 01 Introduction and Basics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 课程pdf: [fetch.php](https://safari.ethz.ch/digitaltechnik/spring2023/lib/exe/fetch.php?media=onur-ddca-2023-lecture1-intro-afterlecture.pdf)
