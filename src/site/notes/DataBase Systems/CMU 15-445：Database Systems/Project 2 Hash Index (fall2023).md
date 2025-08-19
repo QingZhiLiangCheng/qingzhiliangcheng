@@ -1,5 +1,5 @@
 ---
-{"tags":["project","cmu15445","bustub"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 2 Hash Index (fall2023)/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-30T23:10:47.890+08:00","updated":"2025-05-04T16:11:15.256+08:00"}
+{"tags":["project","cmu15445","bustub"],"dg-publish":true,"created":"2025-04-30T23:10:47.890+08:00","updated":"2025-05-04T16:11:15.256+08:00","permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 2 Hash Index (fall2023)/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### Task 1 - Read/Write Page Guards
