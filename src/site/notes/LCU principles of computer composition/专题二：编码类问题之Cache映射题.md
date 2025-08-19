@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"tags":["LCU机组"],"permalink":"/LCU principles of computer composition/专题二：编码类问题之Cache映射题/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-12-02T20:14:01.164+08:00","updated":"2025-04-19T09:58:48.319+08:00"}
+dg-publish: true
+tags:
+  - LCU机组
+created: 2024-12-02T20:14:01.164+08:00
+updated: 2025-04-19T09:58:48.319+08:00
 ---
-
 
 这部分题目主要就是分析cache不同的映射方法 设计主存地址格式
 相关的映射方法以及知识见[[LCU principles of computer composition/高速缓冲存储器\|高速缓冲存储器]]

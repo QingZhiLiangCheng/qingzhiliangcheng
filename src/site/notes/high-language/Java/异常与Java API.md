@@ -1,5 +1,5 @@
 ---
-{"tags":["Java"],"dg-publish":true,"permalink":"/high-language/Java/异常与Java API/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-05-07T08:26:26.275+08:00","updated":"2025-05-07T08:42:50.312+08:00"}
+{"tags":["Java"],"dg-publish":true,"created":"2025-05-07T08:26:26.275+08:00","updated":"2025-05-07T08:42:50.312+08:00","permalink":"/high-language/Java/异常与Java API/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 异常类都继承自java.lang包下的（） 

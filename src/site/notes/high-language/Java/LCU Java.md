@@ -1,5 +1,5 @@
 ---
-{"tags":["LCU-Java","folder"],"dg-publish":true,"comments":"false","permalink":"/high-language/Java/LCU Java/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-05-06T19:58:05.691+08:00","updated":"2025-07-31T18:50:53.927+08:00"}
+{"tags":["LCU-Java","folder"],"dg-publish":true,"comments":"false","created":"2025-05-06T19:58:05.691+08:00","updated":"2025-07-31T18:50:53.927+08:00","permalink":"/high-language/Java/LCU Java/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 2025spring

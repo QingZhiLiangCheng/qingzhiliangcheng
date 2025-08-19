@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 04 & Reading 2.6 矩阵的LU, LRU分解/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-04T10:26:11.536+08:00","updated":"2025-08-04T12:08:26.171+08:00"}
+dg-publish: true
+created: 2025-08-04T10:26:11.536+08:00
+updated: 2025-08-04T12:08:26.171+08:00
 ---
-
 以一种新的思路审视高斯消元 
 在[[math/Linear Algebra/Lecture 02 & Reading 2.2, 2.3 矩阵消元法求解方程组\|Lecture 02 & Reading 2.2, 2.3 矩阵消元法求解方程组]]中其实提到了矩阵进行消元法，本质上就是进行了行变换，而进行行交换的过程，相当于在A矩阵上左乘好多个E，最终变成了U
 所以能看出来A和U是有关系的，这个关系其实就是L，也就是那些E的综合，这其实也可以算是一种更快的消元法

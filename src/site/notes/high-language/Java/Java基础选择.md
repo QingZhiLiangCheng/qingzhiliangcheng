@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Java"],"permalink":"/high-language/Java/Java基础选择/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-05-06T19:58:05.691+08:00","updated":"2025-05-06T21:34:20.468+08:00"}
+{"dg-publish":true,"tags":["Java"],"created":"2025-05-06T19:58:05.691+08:00","updated":"2025-05-06T21:34:20.468+08:00","permalink":"/high-language/Java/Java基础选择/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

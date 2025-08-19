@@ -1,7 +1,12 @@
 ---
-{"tags":["#folder","LCU数据结构"],"sticker":"emoji//1f3d7-fe0f","dg-publish":true,"permalink":"/LCU DataStructure/LCU DataStructure/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-09-22T17:16:56.309+08:00","updated":"2025-08-09T15:13:58.604+08:00"}
+tags:
+  - "#folder"
+  - LCU数据结构
+sticker: emoji//1f3d7-fe0f
+dg-publish: true
+created: 2024-09-22T17:16:56.309+08:00
+updated: 2025-08-09T15:13:58.604+08:00
 ---
-
 
 📅date: 2024.09.20 - 2025.01.06完结✅
 大二上学期 spring2024

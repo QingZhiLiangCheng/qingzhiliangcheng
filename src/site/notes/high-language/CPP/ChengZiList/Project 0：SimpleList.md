@@ -1,7 +1,11 @@
 ---
-{"tags":["project","ChengZiList"],"dg-publish":true,"permalink":"/high-language/CPP/ChengZiList/Project 0：SimpleList/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-28T12:54:28.282+08:00","updated":"2025-04-29T22:00:09.626+08:00"}
+tags:
+  - project
+  - ChengZiList
+dg-publish: true
+created: 2025-04-28T12:54:28.282+08:00
+updated: 2025-04-29T22:00:09.626+08:00
 ---
-
 
 ### Task1: 克隆仓库 并 运行
 **克隆仓库**

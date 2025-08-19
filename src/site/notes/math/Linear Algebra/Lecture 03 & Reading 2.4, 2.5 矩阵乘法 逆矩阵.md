@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 03 & Reading 2.4, 2.5 矩阵乘法 逆矩阵/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-01T14:23:29.236+08:00","updated":"2025-08-04T10:39:37.694+08:00"}
+dg-publish: true
+created: 2025-08-01T14:23:29.236+08:00
+updated: 2025-08-04T10:39:37.694+08:00
 ---
-
 
 方阵是否可逆？ 如何求逆矩阵 --- 提到了增广矩阵线性变换
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 21 Network Programming：Part I/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-04T14:22:23.312+08:00","updated":"2025-08-04T17:10:08.531+08:00"}
+{"dg-publish":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 21 Network Programming：Part I/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![[21-netprog1.pdf]]

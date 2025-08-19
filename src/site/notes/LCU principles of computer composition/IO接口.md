@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"tags":["LCU机组"],"permalink":"/LCU principles of computer composition/IO接口/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-17T17:00:59.622+08:00","updated":"2025-04-19T09:59:25.251+08:00"}
+dg-publish: true
+tags:
+  - LCU机组
+created: 2024-11-17T17:00:59.622+08:00
+updated: 2025-04-19T09:59:25.251+08:00
 ---
-
 
 为什么要使用接口？
 1. 在计算机中，我们使用总线和外部设备进行数据交互，将外部设备编址，CPU通过总线选择和哪个设备进行交互   所以接口的第一个作用就是实现设备的选择

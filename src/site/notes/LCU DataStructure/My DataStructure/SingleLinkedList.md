@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/LCU DataStructure/My DataStructure/SingleLinkedList/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-07T17:57:41.461+08:00","updated":"2025-07-08T00:19:05.561+08:00"}
+dg-publish: true
+created: 2025-07-07T17:57:41.461+08:00
+updated: 2025-07-08T00:19:05.561+08:00
 ---
-
 链表
 什么是链表？
 从虚拟内存 64位 48位(int a =10 验证, 分析内存视图) 各个分区 介绍到 数组扩容  到 链表

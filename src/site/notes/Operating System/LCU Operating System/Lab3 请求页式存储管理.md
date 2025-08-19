@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["LCU操作系统"],"permalink":"/Operating System/LCU Operating System/Lab3 请求页式存储管理/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-27T16:24:57.411+08:00","updated":"2025-04-30T23:11:08.342+08:00"}
+{"dg-publish":true,"tags":["LCU操作系统"],"permalink":"/Operating System/LCU Operating System/Lab3 请求页式存储管理/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Lab3主要是关于page table, virtual address 和 physical address的转换 还有 页面置换算法LRU算法

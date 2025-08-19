@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 06 并发控制：同步/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-08T23:20:16.525+08:00","updated":"2025-08-09T02:11:50.848+08:00"}
+{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 06 并发控制：同步/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 **today's agenda**

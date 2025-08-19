@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/vi/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-22T15:14:48.631+08:00","updated":"2025-07-22T15:22:30.390+08:00"}
+dg-publish: true
+created: 2025-07-22T15:14:48.631+08:00
+updated: 2025-07-22T15:22:30.390+08:00
 ---
-
 
 vi是Unix/Linux中最常用的一个文本编辑器之一
 

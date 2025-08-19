@@ -1,7 +1,11 @@
 ---
-{"tags":["project","ChengZiList"],"dg-publish":true,"permalink":"/high-language/CPP/ChengZiList/Project 1：IntLinkedList/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-29T16:02:27.866+08:00","updated":"2025-04-29T22:20:06.626+08:00"}
+tags:
+  - project
+  - ChengZiList
+dg-publish: true
+created: 2025-04-29T16:02:27.866+08:00
+updated: 2025-04-29T22:20:06.626+08:00
 ---
-
 ### Overview
 在[[high-language/CPP/ChengZiList/Project 0：SimpleList\|Project 0：SimpleList]]中 你已经实现了一个简单的链表SimpleList.
 但是很明显SimpleList存在很多问题 丑陋 臃肿 比如

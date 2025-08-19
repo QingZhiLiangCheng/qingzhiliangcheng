@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"tags":["LCU机组"],"permalink":"/LCU principles of computer composition/DMA方式/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-22T19:43:45.730+08:00","updated":"2025-04-19T09:59:22.252+08:00"}
+dg-publish: true
+tags:
+  - LCU机组
+created: 2024-11-22T19:43:45.730+08:00
+updated: 2025-04-19T09:59:22.252+08:00
 ---
-
 
 ### DMA方式的特点
 #### DMA和程序中断两种方式的数据通路

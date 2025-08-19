@@ -1,7 +1,11 @@
 ---
-{"tags":["project","ChengZiList"],"dg-publish":true,"permalink":"/high-language/CPP/ChengZiList/ChengZiList/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-28T12:07:13.868+08:00","updated":"2025-04-29T17:37:14.130+08:00"}
+tags:
+  - project
+  - ChengZiList
+dg-publish: true
+created: 2025-04-28T12:07:13.868+08:00
+updated: 2025-04-29T17:37:14.130+08:00
 ---
-
 
 📅Date: 2025.04.28 -- ing
 在学弟学妹问我怎么学C++的时候，我一般建议他们试着去实现List, LinkedList, ArrayList 用上面向对象的知识…… 为了帮助大家掌握C++和数据结构的知识，我设计并开发了一个名为ChengZiList的简单的项目
