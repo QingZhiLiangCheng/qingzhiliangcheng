@@ -1,5 +1,5 @@
 ---
-{"tags":["CMU15721"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-06-28T16:34:33.903+08:00","updated":"2025-07-03T20:34:43.828+08:00"}
+{"tags":["CMU15721"],"dg-publish":true,"created":"2025-06-28T16:34:33.903+08:00","updated":"2025-07-03T20:34:43.828+08:00","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![[armbrust-cidr21.pdf]]
