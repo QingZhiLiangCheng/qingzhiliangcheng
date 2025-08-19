@@ -1,10 +1,7 @@
 ---
-tags:
-  - notes
-dg-publish: true
-created: 2025-07-05T16:12:16.432+08:00
-updated: 2025-07-13T22:51:07.329+08:00
+{"tags":["notes"],"dg-publish":true,"created":"2025-07-05T16:12:16.432+08:00","updated":"2025-07-13T22:51:07.329+08:00","permalink":"/libiry/passages/2025年暑假的ideas/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 
 今天都已经7月5号了，其实我6月29号晚上就已经在家了，这么算来，已经在家一个星期了。
 这才想起来，要做一个暑假的代办日程。

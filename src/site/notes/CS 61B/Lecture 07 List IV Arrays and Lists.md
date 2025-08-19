@@ -1,12 +1,7 @@
 ---
-week: 第三周
-dg-publish: true
-tags:
-  - cs61b
-  - week3
-created: 2025-03-09T12:21:19.732+08:00
-updated: 2025-04-19T09:50:37.743+08:00
+{"week":"第三周","dg-publish":true,"tags":["cs61b","week3"],"created":"2025-03-09T12:21:19.732+08:00","updated":"2025-04-19T09:50:37.743+08:00","permalink":"/CS 61B/Lecture 07 List IV Arrays and Lists/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 
 ![[[61B SP24] Lecture 7 - Lists 4_ Arrays and Lists.pdf]]
 

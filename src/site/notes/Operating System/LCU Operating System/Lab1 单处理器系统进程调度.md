@@ -1,10 +1,7 @@
 ---
-dg-publish: true
-tags:
-  - LCU操作系统
-created: 2025-04-12T16:39:06.370+08:00
-updated: 2025-04-26T15:37:26.672+08:00
+{"dg-publish":true,"tags":["LCU操作系统"],"created":"2025-04-12T16:39:06.370+08:00","updated":"2025-04-26T15:37:26.672+08:00","permalink":"/Operating System/LCU Operating System/Lab1 单处理器系统进程调度/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 Lab1主要模拟单处理器的进程调度
 其实进程调度算法有很多种 比如FCFS（先来先服务），SPF（短进程优先），RR（时间片轮转法），优先级算法等
 在Lab1中其实是用了优先级算法 然后再思考题中提到了一个时间片轮转法

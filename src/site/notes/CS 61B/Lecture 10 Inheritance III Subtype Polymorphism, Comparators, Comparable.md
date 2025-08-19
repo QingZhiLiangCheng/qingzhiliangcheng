@@ -1,12 +1,7 @@
 ---
-week: 第四周
-dg-publish: true
-tags:
-  - cs61b
-  - week4
-created: 2025-03-12T14:21:13.375+08:00
-updated: 2025-04-19T09:51:04.751+08:00
+{"week":"第四周","dg-publish":true,"tags":["cs61b","week4"],"created":"2025-03-12T14:21:13.375+08:00","updated":"2025-04-19T09:51:04.751+08:00","permalink":"/CS 61B/Lecture 10 Inheritance III Subtype Polymorphism, Comparators, Comparable/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 
 **In this lecture**
 - Reviewing Dynamic Method Selection -- 回顾动态方法选择

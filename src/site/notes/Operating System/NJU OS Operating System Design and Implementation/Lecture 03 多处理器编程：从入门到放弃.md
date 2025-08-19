@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 03 多处理器编程：从入门到放弃/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"created":"2025-07-31T16:04:15.667+08:00","updated":"2025-08-01T20:01:24.911+08:00","permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 03 多处理器编程：从入门到放弃/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - [x] 阅读章节: OSTEP Chapter 25, 26, 27

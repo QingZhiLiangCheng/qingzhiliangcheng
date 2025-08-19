@@ -1,13 +1,7 @@
 ---
-tags:
-  - folder
-  - LCU机组
-sticker: emoji//1f3e2
-dg-publish: true
-dg-pinned: true
-created: 2024-09-22T19:30:09.057+08:00
-updated: 2025-08-09T15:13:50.677+08:00
+{"tags":["folder","LCU机组"],"sticker":"emoji//1f3e2","dg-publish":true,"dg-pinned":true,"created":"2024-09-22T19:30:09.057+08:00","updated":"2025-08-09T15:13:50.677+08:00","permalink":"/LCU principles of computer composition/LCU principles of computer composition/","pinned":true,"dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 📅date: 2024.10.30 - 2025.01.03完结✅
 大二上课程 fall2024
 我当时跟的是哈工大刘宏伟老师的课  但是没有完全跟完

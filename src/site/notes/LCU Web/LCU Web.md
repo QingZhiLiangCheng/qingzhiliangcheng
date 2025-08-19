@@ -1,12 +1,7 @@
 ---
-tags:
-  - folder
-  - LCU-Web
-dg-publish: true
-sticker: emoji//1f636-200d-1f32b-fe0f
-created: 2025-06-07T19:14:16.422+08:00
-updated: 2025-07-31T20:35:12.903+08:00
+{"tags":["folder","LCU-Web"],"dg-publish":true,"sticker":"emoji//1f636-200d-1f32b-fe0f","created":"2025-06-07T19:14:16.422+08:00","updated":"2025-07-31T20:35:12.903+08:00","permalink":"/LCU Web/LCU Web/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 2025spring
 软工的期中考试是100个选择题，期末考试是给个图片然后用三件套给复现出来，除此之外还有大作业……
 机房里面只有VS code.

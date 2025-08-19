@@ -1,12 +1,7 @@
 ---
-week: 第七周
-dg-publish: true
-tags:
-  - cs61b
-  - week7
-created: 2025-03-28T11:07:21.076+08:00
-updated: 2025-04-19T09:51:50.119+08:00
+{"week":"第七周","dg-publish":true,"tags":["cs61b","week7"],"created":"2025-03-28T11:07:21.076+08:00","updated":"2025-04-19T09:51:50.119+08:00","permalink":"/CS 61B/Lecture 18 Tree Rotation and Red Black Trees/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 ### Rotating Trees
 B-tree的代码实现并不容易 要判断节点中item的个数
 today -- 受b-tree的启发 来学习一个容易实现的结构

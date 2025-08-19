@@ -1,5 +1,5 @@
 ---
-{"tags":["csapp"],"dg-publish":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 20：Dynamic Memory Allocation：Advanced Concepts/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["csapp"],"dg-publish":true,"created":"2025-07-28T20:31:56.667+08:00","updated":"2025-07-29T12:27:23.147+08:00","permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 20：Dynamic Memory Allocation：Advanced Concepts/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![[20-malloc-advanced.pdf]]

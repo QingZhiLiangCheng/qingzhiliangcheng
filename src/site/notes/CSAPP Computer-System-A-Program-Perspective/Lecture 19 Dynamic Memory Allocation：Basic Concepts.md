@@ -1,5 +1,5 @@
 ---
-{"tags":["csapp"],"dg-publish":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 19 Dynamic Memory Allocation：Basic Concepts/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["csapp"],"dg-publish":true,"created":"2025-07-20T18:32:46.730+08:00","updated":"2025-07-31T15:39:00.626+08:00","permalink":"/CSAPP Computer-System-A-Program-Perspective/Lecture 19 Dynamic Memory Allocation：Basic Concepts/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

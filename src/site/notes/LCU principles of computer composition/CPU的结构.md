@@ -1,10 +1,7 @@
 ---
-dg-publish: true
-tags:
-  - LCU机组
-created: 2024-11-28T11:11:11.328+08:00
-updated: 2025-04-19T09:59:19.491+08:00
+{"dg-publish":true,"tags":["LCU机组"],"created":"2024-11-28T11:11:11.328+08:00","updated":"2025-04-19T09:59:19.491+08:00","permalink":"/LCU principles of computer composition/CPU的结构/","dgPassFrontmatter":true,"noteIcon":""}
 ---
+
 
 ### CPU的功能
 1. 控制器功能
