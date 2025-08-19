@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//database","dg-publish":true,"tags":["LCU数据库"],"permalink":"/DataBase Systems/LCU Database System/LCU Database System/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-09T13:35:44.736+08:00","updated":"2025-08-09T15:48:19.323+08:00"}
+{"sticker":"lucide//database","dg-publish":true,"tags":["LCU数据库"],"created":"2025-04-09T13:35:44.736+08:00","updated":"2025-08-09T15:48:19.323+08:00","permalink":"/DataBase Systems/LCU Database System/LCU Database System/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅spring2025 date: 2025.04.09 - 2025.06.27 完结✅

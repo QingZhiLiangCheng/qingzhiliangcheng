@@ -1,5 +1,5 @@
 ---
-{"tags":["LCU数据库"],"dg-publish":true,"permalink":"/DataBase Systems/LCU Database System/专题二：E-R图与关系模型/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-06-21T16:58:06.025+08:00","updated":"2025-06-21T17:45:58.971+08:00"}
+{"tags":["LCU数据库"],"dg-publish":true,"created":"2025-06-21T16:58:06.025+08:00","updated":"2025-06-21T17:45:58.971+08:00","permalink":"/DataBase Systems/LCU Database System/专题二：E-R图与关系模型/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 百货公司管辖若干个连锁商店，每家商店经营若干商品，每家商店有若干职工，但每个职工只能服务于一家商店。

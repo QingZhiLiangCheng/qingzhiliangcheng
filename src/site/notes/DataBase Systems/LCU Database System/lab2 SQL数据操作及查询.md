@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["LCU数据库"],"permalink":"/DataBase Systems/LCU Database System/lab2 SQL数据操作及查询/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-14T14:07:04.241+08:00","updated":"2025-04-21T15:28:12.570+08:00"}
+{"dg-publish":true,"tags":["LCU数据库"],"created":"2025-04-14T14:07:04.241+08:00","updated":"2025-04-21T15:28:12.570+08:00","permalink":"/DataBase Systems/LCU Database System/lab2 SQL数据操作及查询/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 连接数据库见前面几篇笔记
