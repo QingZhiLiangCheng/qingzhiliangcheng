@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 03 & Reading 2.4, 2.5 矩阵乘法 逆矩阵/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.051+08:00","updated":"2025-08-04T10:39:37.694+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 03 & Reading 2.4, 2.5 矩阵乘法 逆矩阵/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-01T14:23:29.236+08:00","updated":"2025-08-04T10:39:37.694+08:00"}
 ---
 
 

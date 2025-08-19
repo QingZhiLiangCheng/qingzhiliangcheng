@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f973","tags":["folder"],"dg-publish":true,"dg-pinned":true,"permalink":"/CS 61B/CS 61B/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:18.242+08:00","updated":"2025-07-31T20:35:19.466+08:00"}
+{"sticker":"emoji//1f973","tags":["folder"],"dg-publish":true,"dg-pinned":true,"permalink":"/CS 61B/CS 61B/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2025-03-02T21:48:21.662+08:00","updated":"2025-07-31T20:35:19.466+08:00"}
 ---
 
 📅date: 2025.03.02 - ing

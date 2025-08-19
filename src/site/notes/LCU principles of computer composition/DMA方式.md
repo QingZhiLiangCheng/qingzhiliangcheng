@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["LCU机组"],"permalink":"/LCU principles of computer composition/DMA方式/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:29.250+08:00","updated":"2025-04-19T09:59:22.252+08:00"}
+{"dg-publish":true,"tags":["LCU机组"],"permalink":"/LCU principles of computer composition/DMA方式/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-22T19:43:45.730+08:00","updated":"2025-04-19T09:59:22.252+08:00"}
 ---
 
 

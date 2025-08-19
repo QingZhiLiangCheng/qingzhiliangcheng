@@ -1,5 +1,5 @@
 ---
-{"tags":["LCU操作系统"],"dg-publish":true,"permalink":"/Operating System/LCU Operating System/LCU OS小知识点/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.364+08:00","updated":"2025-06-25T07:28:38.269+08:00"}
+{"tags":["LCU操作系统"],"dg-publish":true,"permalink":"/Operating System/LCU Operating System/LCU OS小知识点/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-06-22T08:42:48.522+08:00","updated":"2025-06-25T07:28:38.269+08:00"}
 ---
 
 ### 处理机

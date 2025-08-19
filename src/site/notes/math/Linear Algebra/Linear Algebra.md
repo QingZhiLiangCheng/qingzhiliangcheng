@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.074+08:00","updated":"2025-08-08T12:22:50.283+08:00"}
+{"tags":["folder"],"dg-publish":true,"permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-25T14:33:58.533+08:00","updated":"2025-08-08T12:22:50.283+08:00"}
 ---
 
 这是对MIT经典线性代数课程18.06 Linear Algebra, 其授课教授Gilbert Strang的教材《Introduction to Linear Algebra》，以及Youtube系列《线性代数的本质(Essence of Linear Algebra)》等内容的综合整理。

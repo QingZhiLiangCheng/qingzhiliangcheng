@@ -1,5 +1,5 @@
 ---
-{"tags":["LCU操作系统"],"dg-publish":true,"permalink":"/Operating System/LCU Operating System/Lab2 动态资源分配实验/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.344+08:00","updated":"2025-04-26T19:53:23.771+08:00"}
+{"tags":["LCU操作系统"],"dg-publish":true,"permalink":"/Operating System/LCU Operating System/Lab2 动态资源分配实验/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-26T16:05:27.659+08:00","updated":"2025-04-26T19:53:23.771+08:00"}
 ---
 
 Lab2 主要是 模拟 银行家算法 最后主要是补全了一个safe函数

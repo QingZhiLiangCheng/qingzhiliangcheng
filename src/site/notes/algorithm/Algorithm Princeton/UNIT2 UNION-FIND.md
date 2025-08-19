@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT2 UNION-FIND/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:17.872+08:00","updated":"2025-03-30T15:32:20.927+08:00"}
+{"dg-publish":true,"permalink":"/algorithm/Algorithm Princeton/UNIT2 UNION-FIND/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-01-14T09:51:14.779+08:00","updated":"2025-03-30T15:32:20.927+08:00"}
 ---
 
 

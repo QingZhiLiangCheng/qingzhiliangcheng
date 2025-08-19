@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/gdb/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.500+08:00","updated":"2025-07-26T14:15:23.282+08:00"}
+{"dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/gdb/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-22T17:17:59.867+08:00","updated":"2025-07-26T14:15:23.282+08:00"}
 ---
 
 ```bash

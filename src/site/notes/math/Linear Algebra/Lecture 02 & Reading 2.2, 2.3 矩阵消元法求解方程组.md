@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 02 & Reading 2.2, 2.3 矩阵消元法求解方程组/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.044+08:00","updated":"2025-08-04T10:50:03.241+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 02 & Reading 2.2, 2.3 矩阵消元法求解方程组/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-07-30T13:17:00.907+08:00","updated":"2025-08-04T10:50:03.241+08:00"}
 ---
 
 ### Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 06 & Reading 3.1, 3.2 向量空间与子空间 列空间 零空间/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:30.068+08:00","updated":"2025-08-08T14:07:36.988+08:00"}
+{"dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 06 & Reading 3.1, 3.2 向量空间与子空间 列空间 零空间/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-08T11:44:16.640+08:00","updated":"2025-08-08T14:07:36.988+08:00"}
 ---
 
 ### 向量空间与子空间

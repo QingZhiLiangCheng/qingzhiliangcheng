@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f60d","color":"","dg-publish":true,"dg-pinned":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/CSAPP Computer-System-A-Program-Perspective/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:18.475+08:00","updated":"2025-08-04T17:14:50.612+08:00"}
+{"tags":["folder"],"sticker":"emoji//1f60d","color":"","dg-publish":true,"dg-pinned":true,"permalink":"/CSAPP Computer-System-A-Program-Perspective/CSAPP Computer-System-A-Program-Perspective/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-29T12:31:23.842+08:00","updated":"2025-08-04T17:14:50.612+08:00"}
 ---
 
 📅date: 2024.12.24 - ing

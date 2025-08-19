@@ -1,5 +1,5 @@
 ---
-{"tags":["cmu15445","week11"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 17 Timestamp Ordering Concurrency Control/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-08-15T09:39:19.017+08:00","updated":"2025-06-30T20:26:59.623+08:00"}
+{"tags":["cmu15445","week11"],"dg-publish":true,"permalink":"/DataBase Systems/CMU 15-445：Database Systems/Lecture 17 Timestamp Ordering Concurrency Control/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-04-19T16:13:11.416+08:00","updated":"2025-06-30T20:26:59.623+08:00"}
 ---
 
 ![[17-timestampordering.pdf]]
