@@ -1,5 +1,5 @@
 ---
-{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","created":"2025-06-30T20:29:38.980+08:00","updated":"2025-07-31T20:35:09.310+08:00","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","created":"2025-06-30T20:29:38.980+08:00","updated":"2025-09-02T08:53:51.014+08:00","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -11,3 +11,5 @@
 - Lecture 02: Data Formats & Encoding I
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats\|Lecture 02 Paper-1：An Empirical Evaluation of Columnar Storage Formats]]
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 02 lecture：Data Formats & Encoding I\|Lecture 02 lecture：Data Formats & Encoding I]]
+- Lecture 03: Data Formats & Encoding II
+	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 03 paper-1 The FastLanes Compression Layout\|Lecture 03 paper-1 The FastLanes Compression Layout]]
