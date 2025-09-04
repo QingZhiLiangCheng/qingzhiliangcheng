@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-03T19:47","updated":"2025-09-03T21:44","dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 08 求解Ax=b 可解性和解的结构/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-03T19:47","updated":"2025-09-03T22:18","dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 08 求解Ax=b 可解性和解的结构/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 满秩
