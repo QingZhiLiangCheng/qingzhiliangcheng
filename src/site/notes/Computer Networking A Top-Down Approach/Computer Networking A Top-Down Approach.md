@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-04T21:53","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-05T17:33","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 中国科学技术大学郑烇老师的计算机网络课程
@@ -11,7 +11,7 @@
 一定要先看书在看课，课跟书是严格对应的
 老师竟然一直坚持在评论区答疑😍
 
-- Chapter 1 Computer Networks and the Internet
+- [[Computer Networking A Top-Down Approach/Chapter 1 Computer Network and Internet\|Chapter 1 Computer Network and Internet]]
 	- [[Computer Networking A Top-Down Approach/1.1 What is the Internet\|1.1 What is the Internet]] -- 什么是Internet？
 	- 
 
