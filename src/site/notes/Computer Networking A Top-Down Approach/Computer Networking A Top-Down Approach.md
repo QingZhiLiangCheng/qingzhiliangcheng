@@ -1,7 +1,8 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-05T17:33","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-05T19:47","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+📅date: 2025.09.04 - ing
 中国科学技术大学郑烇老师的计算机网络课程
 - 课程网站: [http://staff.ustc.edu.cn/~qzheng/teaching.html](http://staff.ustc.edu.cn/~qzheng/teaching.html)
 - 课程视频: 2021年的视频 [https://www.bilibili.com/video/BV1JV411t7ow/](https://www.bilibili.com/video/BV1JV411t7ow/)
