@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f3e0","dg-publish":true,"dg-home":false,"permalink":"/index/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f3e0","dg-publish":true,"dg-home":false,"created":"2025-08-15T09:37","updated":"2025-09-05T19:45","permalink":"/index/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -135,6 +135,7 @@ LCU的操作系统课的实验分为三个部分 分别是进程调度实验, �
 [[Computer Architecture/ETH Zurich 苏黎世联邦理工学院 Digital Design and Computer Architecture/ETH Zurich 苏黎世联邦理工学院 Digital Design and Computer Architecture\|ETH Zurich 苏黎世联邦理工学院 Digital Design and Computer Architecture]]
 [[math/Linear Algebra/Linear Algebra\|Linear Algebra]]
 
+[[Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach\|Computer Networking A Top-Down Approach]]
 
 
 ![background.png|0](/img/user/accessory/background.png)
