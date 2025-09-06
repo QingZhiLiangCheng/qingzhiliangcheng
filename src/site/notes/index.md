@@ -137,7 +137,7 @@ LCU的操作系统课的实验分为三个部分 分别是进程调度实验, �
 
 [[Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach\|Computer Networking A Top-Down Approach]]
 
-
+[[LCU 软件测试/LCU 软件测试\|LCU 软件测试]]
 ![background.png|0](/img/user/accessory/background.png)
 
 
