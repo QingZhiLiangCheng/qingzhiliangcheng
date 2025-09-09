@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-09-06T14:17","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-09-08T15:43","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 这是对MIT经典线性代数课程18.06 Linear Algebra, 其授课教授Gilbert Strang的教材《Introduction to Linear Algebra》，以及Youtube系列《线性代数的本质(Essence of Linear Algebra)》等内容的综合整理。
@@ -17,3 +17,4 @@
 - [[math/Linear Algebra/Lecture 07 & Reading 3.2 求解Ax=0：主变量，特解 Ux=0, Rx=0\|Lecture 07 & Reading 3.2 求解Ax=0：主变量，特解 Ux=0, Rx=0]]
 - [[math/Linear Algebra/Lecture 08 求解Ax=b 可解性和解的结构\|Lecture 08 求解Ax=b 可解性和解的结构]]
 - [[math/Linear Algebra/Lecture 09 线性相关性 基 维数 秩零度定理\|Lecture 09 线性相关性 基 维数 秩零度定理]]
+- [[math/Linear Algebra/Lecture 10 四个基本子空间\|Lecture 10 四个基本子空间]]
