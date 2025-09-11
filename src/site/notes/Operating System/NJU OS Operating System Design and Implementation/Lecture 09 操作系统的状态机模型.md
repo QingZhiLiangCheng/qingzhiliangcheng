@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-09T08:24","updated":"2025-09-09T10:46","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 09 操作系统的状态机模型/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-09T08:24","updated":"2025-09-11T16:33","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 09 操作系统的状态机模型/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 **today's agenda**
@@ -59,3 +59,18 @@ jyy老师提到一个好玩的观点
 ### 操作系统的状态机模型
 ![Pasted image 20250909111105.png|500](/img/user/accessory/Pasted%20image%2020250909111105.png)
 操作系统就是一个C语言代码
+操作系统就是一个程序，如果我们不调用AbstractMachine API的话，就跟我们平时写的c语言程序没有什么区别
+也就是说实际上我们学操作系统 写操作系统 就是去了解每个AbstractMachine API的含义是什么
+所以最重要的事情就是执行了API后状态变成了什么
+老师上课提到了一个例子是`mpe_init`, `mpe_init`就是把单线程C程序变成一个多线程的C程序
+![Pasted image 20250911160310.png](/img/user/accessory/Pasted%20image%2020250911160310.png)
+在此之后CPU1和CPU2会执行不同的东西 其实就是我们所画的多线程的状态机
+![Pasted image 20250911160556.png|400](/img/user/accessory/Pasted%20image%2020250911160556.png)
+
+如果有一天执行了打开中断，接下来就变成了我可以在CPU1上执行指令，也可以在CPU1上发生中断，如果CPU2还没有打开中断的话，就只能执行指令
+实际上中断的行为就是把CPU1当前执行的寄存器现场保存下来(在实验中是栈中的一个context结构体中)
+![Pasted image 20250911161044.png](/img/user/accessory/Pasted%20image%2020250911161044.png)
+
+VME虚拟内存 -- 就是多了一个执行的时候经过一个地址的翻译
+
+ 
