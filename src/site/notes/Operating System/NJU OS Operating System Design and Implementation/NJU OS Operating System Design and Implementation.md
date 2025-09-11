@@ -1,5 +1,5 @@
 ---
-{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-09-09T08:25","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-09-11T21:22","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我看的是2022spring的课程
@@ -13,6 +13,7 @@
 - [[Operating System/NJU OS Operating System Design and Implementation/gdb\|gdb]]
 - 一个简化掉Shell中路径显示的好方法`export PS1="\[\e[1;32m\]\u@\h \[\e[1;34m\]\W\[\e[0m\] \$ "`
 - viu
+- fish
 
 **Lecture**
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 02 操作系统上的程序\|Lecture 02 操作系统上的程序]]
@@ -23,6 +24,7 @@
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 07 真实世界的并发编程\|Lecture 07 真实世界的并发编程]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 08 并发Bug和应对\|Lecture 08 并发Bug和应对]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 09 操作系统的状态机模型\|Lecture 09 操作系统的状态机模型]]
+- [[Operating System/Lecture 10 状态机模型的应用\|Lecture 10 状态机模型的应用]]
 
 **《Operating Systems: Three Easy Pieces》**
 
