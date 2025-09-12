@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-05T19:47","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-12T15:33","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -14,11 +14,11 @@
 
 - [[Computer Networking A Top-Down Approach/Chapter 1 Computer Network and Internet\|Chapter 1 Computer Network and Internet]]
 	- [[Computer Networking A Top-Down Approach/1.1 What is the Internet\|1.1 What is the Internet]] -- 什么是Internet？
-	- 
+	- [[Computer Networking A Top-Down Approach/1.2 The Network Edge\|1.2 The Network Edge]]
 
 
 
 
 ![[763587 计算机网络自顶向下方法第8版.pdf]]
 
-[[Computer Networking A Top-Down Approach/aaa\|aaa]]
+[[aaa\|aaa]]
