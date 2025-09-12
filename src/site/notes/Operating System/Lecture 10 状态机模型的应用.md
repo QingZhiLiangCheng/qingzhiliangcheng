@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-11T19:43","updated":"2025-09-11T21:34","dg-publish":true,"permalink":"/Operating System/Lecture 10 状态机模型的应用/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-11T19:43","updated":"2025-09-12T22:17","dg-publish":true,"permalink":"/Operating System/Lecture 10 状态机模型的应用/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### 状态机: 理解我们的世界
@@ -66,4 +66,20 @@ gdb甚至可以往后退，有快照，可以改变状态机的执行
 回溯记录的是什么？ -- 记录状态的话 代价是非常大的 -- 实际上记录的是操作或者说是行为！ 实际上就像数据库中的日志那样
 事实上在gdb中开启了记录`record`真的可以回溯`reverse-step/reverse-next(rs,rn)`
 
+事实上他是指记录了指令数+非确定指令的结果
+![Pasted image 20250912213051.png|300](/img/user/accessory/Pasted%20image%2020250912213051.png)
+那对于操作系统来说，绝大部分的指令都是确定的，只需要记录下syscall，IO，中断等...
+就能完整的重放出整个操作系统的执行
+
+### 采样状态机执行
+关于性能优化 -- "Premature optimization is the root of all evil." (D. E. Knuth) -- 这句话的意思是说，过早的优化是万恶之源，我们在觉得程序的性能不够的时候，都要停下想一想是不是性能优化的时机，是不是真的值得去做优化
+那怎么再叫mature的optimization
+其实就是要去理解真实状态机的执行，所谓的理解就是状态机执行指令是需要时间的，对象在内存中是需要空间的，那时间和空间到底花了多少？只有知道花在了哪里，才能优化
+就比如浏览器事实上就给我们提供了一个这种甘特图
+![Pasted image 20250912215447.png|500](/img/user/accessory/Pasted%20image%2020250912215447.png)
+做性能摘要的一个很重要的工具就是Profiler
+他其实是看的一段时间内状态的一些关键的信息
+计算机系统中正好有一个机制可以帮助我们每隔一段时间检查一下程序的状态 -- 就是中断！ 操作系统之所以能够控制我们程序的执行，就是因为中断；
+依靠中断的机制，在程序执行的时候可以切换到OS代码，OS代码就可以看到程序在中断前的状态
+![Pasted image 20250912215810.png|400](/img/user/accessory/Pasted%20image%2020250912215810.png)
 
