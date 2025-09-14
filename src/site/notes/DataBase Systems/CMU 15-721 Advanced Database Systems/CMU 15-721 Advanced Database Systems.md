@@ -1,5 +1,5 @@
 ---
-{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","created":"2025-06-30T20:29:38.980+08:00","updated":"2025-09-02T08:53:51.014+08:00","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["CMU15721","folder"],"dg-publish":true,"sticker":"lucide//database","created":"2025-06-30T20:29:38.980+08:00","updated":"2025-09-14T09:48","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/CMU 15-721 Advanced Database Systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -13,3 +13,7 @@
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 02 lecture：Data Formats & Encoding I\|Lecture 02 lecture：Data Formats & Encoding I]]
 - Lecture 03: Data Formats & Encoding II
 	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 03 paper-1 The FastLanes Compression Layout\|Lecture 03 paper-1 The FastLanes Compression Layout]]
+	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 03 Data Formats & Encoding II\|Lecture 03 Data Formats & Encoding II]]
+- Lecture 04: Query Execution & Processing I
+	- [[DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution\|Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution]]
+	- 
