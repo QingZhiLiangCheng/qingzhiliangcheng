@@ -133,6 +133,69 @@ FSST的基本思路是用一字节代码代替频繁出现的最多八字节子�
 #### Roaring Bitmaps
 这是如今在数据系统中频繁出现的一项炫酷技术 -- 咆哮视图？hhh
 Roaring Bitmaps的核心在于这是一种位图索引，它根据比特位的局部密度，切换使用哪种数据结构来存储一个范围内的值。
+Roaring Bitmaps的思想是把巨大的整数空间切分为固定的大小(一般是$2^{16}$)的小块，根据每个小块内部的数据密度，决定用哪一种方法
+- 稀疏块，把这些仅有的数存入一个有序数组中
+- 稠密块，位图 -- 相对应的地方存1
+
+稠密的块还可以用RLE进行压缩
+![Pasted image 20250914184353.png|400](/img/user/accessory/Pasted%20image%2020250914184353.png)
+在课程中的例子稠密和稀疏的分界值是4096
+
+![Pasted image 20250914184509.png|500](/img/user/accessory/Pasted%20image%2020250914184509.png)
+
+事实上，BtrBlocks是想使用更激进的编码方式，来改变数据直接的相互依赖，比如FOR就会比Delta更好
+但是BtrBlock事实上还是会生成变长的段，所以事实上还是not SIMD friendly的
 ### FastLanes
+FastLanes并不像BtrBlocks那样是一个完整的数据格式，这仅仅是一种低级编码方案，通过重新排列元组的方式来实现更佳的数据并行性，从而确保或最大化在SIMD寄存器或SIMD指令中执行的有用工作量
+这篇论文的惊叹之处在于，他们并未针对某一特定实例或配置的SIMD，或是某一CPU供应商进行设计，而是明确提出：创造自己的虚拟指令架构(Virtual ISA), 并用于1024的虚拟缓存器，而且可以很好的映射到现有的SIMD上
+他们的核心在于Unified Transposed Layout
+#### Unifed Transposed Layout
+之所以能够实现重排某一列的元组实现更多的工作在SIMD中执行，是因为我们拥有物理层与逻辑层之间的独立性，关系模型是基于无序集合的
+![Pasted image 20250914191518.png](/img/user/accessory/Pasted%20image%2020250914191518.png)
+
+在解码的时候，会通过位移和其他操作，确保其恢复到正确的顺序
+！只要没有开源系统能以这种方式存储数据，就没有人会这么做
+实际上可能没法使用SIMD对这种游程编码进行解码 需要循环SIMD
+
 
 ### BitWeaving
+前面所讲过的无论是Parquet, ORC, BtrBlock还是FastLanes，他们的核心思想都是在扫描某一列时，每一次都会完整的查看每个元组中的值，换句话说就是不会进行短路操作，所谓的短路操作其实就是看完前面的比特如果不匹配就会结束
+所以其实这里的核心思想就是按位比较，及时跳出循环
+硬件没法改变，硬件向我们提供API，他们在比较两个数的大小的时候不会看到第一位不同就放弃比较后面的位数
+但是在我们的数据库中，我们或许可以比子集？
+这个概念叫做bit slicing(位切片)
+![Pasted image 20250914193459.png|500](/img/user/accessory/Pasted%20image%2020250914193459.png)
+
+BitWeaving！
+这里的基本思想是一种针对列式数据库的替代编码方案，其核心理念是位切片技术，但实施方式将确保最大化利用SIMD
+他们提出了两种不同的编码方案
+- Approach1: Horizontal -- 位级别上的行存储
+- Approach2: Vertical -- 类似于位切片技术，但会进行特定操作，以便最大化SIMD
+
+**Horizontal Storage**
+![Pasted image 20250914194333.png|500](/img/user/accessory/Pasted%20image%2020250914194333.png)
+在段落内部，按照顺序存储数据，从顶部到底部依次排序
+这是展示的8位向量
+除了将值存储为三个比特外，还有一个填充值，用来记录特定操作的结果，即真或假
+![Pasted image 20250914195132.png|500](/img/user/accessory/Pasted%20image%2020250914195132.png)
+优点在于仅需要三条指令即可评估
+在对所有向量操作之后，我们需要重新组合起来，以恢复我们在列中满足谓词或设置为true的元组的偏移量
+右移若干位
+![Pasted image 20250914195702.png|500](/img/user/accessory/Pasted%20image%2020250914195702.png)
+生成的这个叫做选择向量
+但这个选择向量只是一串数字，想要输出到底哪几个向量符合有两种方法
+- Approach1: Iteration -- 就是一个for循环
+- Approach2: Pre-computed Positions Table -- 查表
+
+![Pasted image 20250914200015.png|500](/img/user/accessory/Pasted%20image%2020250914200015.png)
+
+![Pasted image 20250914200044.png|500](/img/user/accessory/Pasted%20image%2020250914200044.png)
+
+**Vertical Storage**
+![Pasted image 20250914200212.png|500](/img/user/accessory/Pasted%20image%2020250914200212.png)
+会浪费一点空间，Segement2后面的需要填充起来
+![Pasted image 20250914200258.png|400](/img/user/accessory/Pasted%20image%2020250914200258.png)
+
+![Pasted image 20250914200327.png|400](/img/user/accessory/Pasted%20image%2020250914200327.png)
+但是算的快，因为可以短路操作，在把第一位比较玩之后就只看对应的t0, t3, t6了，其他的地方就放0了
+最后没有为2的hh

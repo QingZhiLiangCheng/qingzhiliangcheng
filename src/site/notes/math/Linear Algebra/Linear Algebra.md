@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-09-13T09:09","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-09-15T14:36","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 这是对MIT经典线性代数课程18.06 Linear Algebra, 其授课教授Gilbert Strang的教材《Introduction to Linear Algebra》，以及Youtube系列《线性代数的本质(Essence of Linear Algebra)》等内容的综合整理。
@@ -20,3 +20,5 @@
 - [[math/Linear Algebra/Lecture 10 四个基本子空间\|Lecture 10 四个基本子空间]]
 - [[math/Linear Algebra/Lecture 11 矩阵空间, 秩1矩阵, 小世界图\|Lecture 11 矩阵空间, 秩1矩阵, 小世界图]]
 - [[math/Linear Algebra/Lecture 12 图和网络\|Lecture 12 图和网络]]
+- Lecture 13 复习课 复习一
+- [[math/Linear Algebra/Lecture 14 正交向量与子空间\|Lecture 14 正交向量与子空间]]
