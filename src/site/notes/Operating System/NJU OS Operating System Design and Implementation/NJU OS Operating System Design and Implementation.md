@@ -1,5 +1,5 @@
 ---
-{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-09-16T09:29","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-09-18T09:18","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我看的是2022spring的课程
@@ -29,6 +29,7 @@
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 09 操作系统的状态机模型\|Lecture 09 操作系统的状态机模型]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 10 状态机模型的应用\|Lecture 10 状态机模型的应用]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 11 操作系统上的进程\|Lecture 11 操作系统上的进程]]
+- [[Operating System/NJU OS Operating System Design and Implementation/Lecture 12 进程的地址空间\|Lecture 12 进程的地址空间]]
 
 **《Operating Systems: Three Easy Pieces》**
 

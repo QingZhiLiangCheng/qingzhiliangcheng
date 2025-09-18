@@ -1,8 +1,8 @@
 ---
-{"tags":["folder"],"sticker":"lucide//database","dg-publish":true,"dg-pinned":true,"created":"2025-01-20T08:46:32.906+08:00","updated":"2025-07-31T20:36:29.192+08:00","permalink":"/DataBase Systems/CMU 15-445：Database Systems/CMU 15-445：Database Systems/","pinned":true,"dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"lucide//database","dg-publish":true,"dg-pinned":true,"created":"2025-01-20T08:46:32.906+08:00","updated":"2025-09-17T23:06","permalink":"/DataBase Systems/CMU 15-445：Database Systems/CMU 15-445：Database Systems/","pinned":true,"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-📅date: 2025.1.20 - ing
+📅date: 2025.01.20 - 2025.09.17✅
 🥰CMU15445是我目前看过的最喜欢的课程
 Andy老师说：the most important thing you get to understand is I really only care about two things in my entire life. The first one is my wife and my biological daughter and the second one databases.
 值得注意的是，教授的全称叫Andrew Pavlo，这是他在学术和正式出版物中的署名，Andy是Andrew的常见昵称，在教学、演讲、网站、社交媒体等更轻松的场合，他经常用的是 Andy Pavlo.
