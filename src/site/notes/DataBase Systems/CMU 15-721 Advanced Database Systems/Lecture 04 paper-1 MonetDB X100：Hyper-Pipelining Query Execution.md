@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-14T09:45","updated":"2025-09-14T09:47","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-14T09:45","updated":"2025-09-20T21:07","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -72,3 +72,59 @@ STOR dst, reg3
 这段代码的限制因素是三个加载/存储指令，因此MIPS处理器每3个周期可以完成一次 `*(double, double)` 操作。这与MySQL的成本`#ins / IPC = 38 / 0.8 = 49`个周期形成鲜明对比
 paper中给的解释是因为MySQL的调用并不是流水线，而是每次调用只计算一次加法
 因此，一次加法由四条相互依赖的指令组成，它们必须互相等待。考虑到平均指令延迟为5个周期，这就解释了大约20个周期的成本。其余的则花费在跳转到例程、压栈和出栈上
+
+
+#### on MontDB / MIL
+**首先MonetDB的MIL的原理是什么？**
+MIL是纯粹的列存储，他把列存储成了二元关联表(BAT)，所谓的二元关联表就是一列是id，另一列是列的真实数据
+实际上是这样的
+![Pasted image 20250920212358.png|500](/img/user/accessory/Pasted%20image%2020250920212358.png)
+
+在采用Join的时候，会选取其中一个表的head和另一个表的tail，生成一个新的join后的结果，其实这个中间表的结果都会存下来的，如果很大的话，会存在内存中，这就造成了下一次运算可能要频繁的从内存中取数据然后中间结果再存到内存中，这是MIL慢的一个核心
+
+![Pasted image 20250920212614.png|400](/img/user/accessory/Pasted%20image%2020250920212614.png)
+这是论文中在SF在0.001和SF=1时的执行Query的结果
+首先第一点是SF=1: 真实数据量（约1GB），数据远大于CPU缓存，必须从主内存读取，而SF=0.001: 极小的数据量，所有数据和中间结果都能装入CPU缓存，所以其实能很明显的看到SF=1的时候内存带宽卡死在了500MB/s左右，这就是说，这些操作的瓶颈其实就是内存带宽
+
+### X100
+总的来说，为了实现高效查询，X100为了对抗硬件设备的瓶颈，做了下面的努力
+- 垂直分片(案列存储): 由于OLAP数据库的查询是针对列的字段进行复杂的分析，所以X100仍然使用了垂直分片(列式存储)，这样可以最大化顺序IO；另外，在内存中，也是用了这种垂直分片的布局
+- 向量化处理模型: 类似于火山模型，但是确实将一次一元组的流水线改成了一次一批元组的流水线，这样实际上在处理完这一批数据后，可以直接流动起来，因为这不同于之前的整列物化，整列物化数据量太大了，需要处理完这一整列然后形成一个中间表，但是问题是也正因为数据量太大了，需要把中间表存在内存，而现在的向量化处理模型，这批数据处理完之后足以存在CPU缓存，足以向上流动起来
+- 向量化原语: 简单来说这里的核心就是通过向量化原语告诉CPU数据之间相互独立，可以大胆优化
+
+![Pasted image 20250921165655.png|400](/img/user/accessory/Pasted%20image%2020250921165655.png)
+这张图是对于原来MIL和现在X100的一个整体的架构
+
+#### Query Language
+X100放弃了MIL语言，其实在论文中前面提到过MIL语言，我也不是特别能看懂，但是X100所用的关系代数的这种形式，是能看懂的
+实际上，大约就是以类似火山模型的流水线方式进行，不过粒度不再是一个元组，而是一个向量(向量大于1000个值)
+```
+Aggr(
+    Project(
+        Select(
+            Table(lineitem),
+            < (shipdate, date('1998-09-03'))
+        ),
+        [
+            discountprice = *( -( flt('1.0'), discount), extendedprice)
+        ]
+    ),
+    [ returnflag ],
+    [ sum_disc_price = sum(discountprice) ]
+)
+```
+这是paper中给出的一个例子
+他这里的table算子实际上就是我们经常说的scan算子，scan算子是一次一向量的方式从存储的地方检索数据，获取第一批1000个值，会对查询所需要的所有的列, shipdate, discount, extendedprice, retunflag都生成一个对应的向量，然后传给select算子
+这个例子中的select算子是选择shipdate列中为1998-09-03的数据，在X100中，只会对相关的元组进行计算，然后将结果写入输出向量中与输入向量相同的位置，然后一起传给下一个算子，在最后Aggr算子的时候，才会聚合形成最后的选择后的元组
+
+#### X100 Algebra
+![Pasted image 20250921211909.png|350](/img/user/accessory/Pasted%20image%2020250921211909.png)
+这是X100的基本的代数算子
+Table是一个物化的关系(relation)，一个表就是一个关系，很好理解
+Dataflow仅由流水线的元组构成，换句话说，我觉得这就所谓的"向量"或者所谓的流入流出的那一批元组
+所以在算子中，实际上由像Order, TopN, Select这样返回的是与输入形态相同的Dataflow，也有生成新形态的算子，比如Project, Group by ...
+聚合分成三种
+- 直接聚合(DirectAggr)
+- 哈希聚合(HashAggr)
+- 有序聚合(OrdAggr)
+
