@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-17T08:40","updated":"2025-09-17T11:03","dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 15 子空间投影/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-17T08:40","updated":"2025-09-22T17:44","dg-publish":true,"permalink":"/math/Linear Algebra/Lecture 15 子空间投影/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### 二维空间的投影
