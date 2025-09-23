@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-14T09:45","updated":"2025-09-20T21:07","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-14T09:45","updated":"2025-09-23T15:48","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 paper-1 MonetDB X100：Hyper-Pipelining Query Execution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -8,7 +8,7 @@
 这应该算是向量化执行的提出论文吧，这篇论文实际上可以分为三个部分
 - 第一部分分析了现代CPU的超标量(超流水线)技术，也正是因为超标量技术，以及内存带宽瓶颈，导致了原来的火山模型和旧版MonetDB的全列物化并不适用，所以paper后来提出了向量化执行的引擎
 - 第二部分是在不同的数据库上测试TCP-H的Query1来研究问题的根源，这里测试了DBMS "X", MySQL这些传统行数据库，Oracle, SQL Server, DB2这样的商业数据库(我记得这些数据库也大多数是行数据库)，以及旧版的MonetDB(列式数据库)，发现了时间大部分并不是集中在计算的操作上，所以后面提出了向量化执行的引擎X100
-- 第三部分是X100引擎的工作原理
+- 第三部分是X100引擎的工作原理 ，主要是针对关系代数，向量化处理，原语，存储模式等进行了说明
 
 ### 超标量技术
 我第一次接触超标量技术应该是在计算机组成原理的课上，第二次是在CSAPP上，甚至我记得好像下面的这张图我也在CSAPP上见过
@@ -116,15 +116,72 @@ Aggr(
 这是paper中给出的一个例子
 他这里的table算子实际上就是我们经常说的scan算子，scan算子是一次一向量的方式从存储的地方检索数据，获取第一批1000个值，会对查询所需要的所有的列, shipdate, discount, extendedprice, retunflag都生成一个对应的向量，然后传给select算子
 这个例子中的select算子是选择shipdate列中为1998-09-03的数据，在X100中，只会对相关的元组进行计算，然后将结果写入输出向量中与输入向量相同的位置，然后一起传给下一个算子，在最后Aggr算子的时候，才会聚合形成最后的选择后的元组
+![Pasted image 20250923150819.png|450](/img/user/accessory/Pasted%20image%2020250923150819.png)
 
-#### X100 Algebra
+
 ![Pasted image 20250921211909.png|350](/img/user/accessory/Pasted%20image%2020250921211909.png)
 这是X100的基本的代数算子
 Table是一个物化的关系(relation)，一个表就是一个关系，很好理解
 Dataflow仅由流水线的元组构成，换句话说，我觉得这就所谓的"向量"或者所谓的流入流出的那一批元组
 所以在算子中，实际上由像Order, TopN, Select这样返回的是与输入形态相同的Dataflow，也有生成新形态的算子，比如Project, Group by ...
+这里提到了TopN排序，TopN排序实际上就是TopN Heap Sort，第一次学TopN Heap Sort在[[DataBase Systems/CMU 15-445：Database Systems/Lecture 10 Sorting & Aggregations Algorithm\|Lecture 10 Sorting & Aggregations Algorithm]],如果忘记了可以去看一下
 聚合分成三种
 - 直接聚合(DirectAggr)
 - 哈希聚合(HashAggr)
 - 有序聚合(OrdAggr)
+
+在[[DataBase Systems/CMU 15-445：Database Systems/Lecture 10 Sorting & Aggregations Algorithm\|Lecture 10 Sorting & Aggregations Algorithm]]中学过基本的聚合的方法，主要就是基于b+tree和基于Hash的两种大的方向，而且HashAggr的方法还讲了几种优化，但是当时学的时候似乎不是按照直接聚合，哈希聚合有序聚合这样分的(或许我忘了)，这里仔细整理了一下直接聚合，哈希聚合和有序聚合
+**直接聚合** 
+论文中说直接聚合只会用于分组键的数据类型简单，并且值的范围（基数）很小且已知的情况，这里实际上像是桶排序就是将已知的分组键放在数组中摆好，然后遍历所有的tuple, 然后进行聚合(如果是sum, 那就是在对应分组键的地方加上该tuple的值，如果是count，就是在对应分组键++)
+**有序聚合**
+策略要求输入数据已经**按照分组键排好序**，其实这个方法在Lecture10中介绍过，主要就是有一个游标，由于已经排序，所以只需要看该tuple与前一个tuple的值是否一样就可以
+**哈希聚合**
+这是最普遍使用的方式，就是遍历所有的元组，进行哈希，如果不存在就在哈希表中建立新的键，如果存在就对应更新值，当然在Lecture1中其实讲的很清楚了，可能还有ReHash等的优化...
+
+#### Vectorized Primitives
+向量化原语之为什么这么快？
+**restrict关键字，编译器友好**
+一个因素是向量化原语使用了`restrict`关键字，比如`double* __restrict__ col1` 是程序员向编译器做出的承诺：“`col1` 指向的内存，和其他 `restrict` 指针（如`res`, `col2`）指向的内存绝不重叠”。这消除了编译器的后顾之忧，使其可以大胆地进行循环流水线等最激进的优化，让CPU的多个计算单元并行工作
+**选择向量的机制**
+```cpp
+map_plus_double_col_double_col(int n, double*__restrict__ res, double*__restrict__ col1, double*__restrict__ col2, int*__restrict__ sel) {
+  if (sel) {
+    for(int j=0; j<n; j++) {
+      int i = sel[j];
+      res[i] = col1[i] + col2[i];
+    }
+  } else {
+    for(int i=0; i<n; i++) {
+      res[i] = col1[i] + col2[i];
+    }
+  }
+}
+```
+这是paper中给出的使用select选择向量的例子，在代码中，可以根据sel向量是否为NULL而选择不同的路径，如果`Select`算子会生成选择向量 `sel = [0, 2, 4]`，那么事实上执行的只是`col1[0]+col2[0]`, `col1[2]+col2[2]`, `col1[4]+col2[4]`
+另外，由于select算子的存在，它存储的是偏移量而不是像之间那样的中间结果的真实数据的向量，这也是一个高效的优化
+**模版 & 代码生成**
+这其实就相当于CPP的函数模版那样子，paper中举出的一个例子是
+```cpp
++(double*, double*)
++(double, double*)
++(double*, double)
++(double, double)
+```
+
+**复合原语**
+其实复合原语的本质是将多个指令融合成一个大的复合原语，从而消除中间的存和取的时间，比如对于`res[i] = col1[i] + col2[i]`这样的简单操作，CPU做一次加法，却需要做两次数据加载（load `col1[i]`, `col2[i]`）和一次数据存储（store `res[i]`）。所以使用复合原语实际上是将中间结果直接存取在了CPU的高速Cache，从而消除寄存器？中的存取时间？
+
+#### Data Storage
+![Pasted image 20250923152915.png|450](/img/user/accessory/Pasted%20image%2020250923152915.png)
+X100选择了列式存储这是毋庸置疑的
+由于列式存储在增加或者删除一个tuple的时候要对表中的所有列都需要操作，所以这里的思想实际上是将整个列文件都设定为可读，同时维护了一个增量结构和删除列表
+这其实有点像日志存储的思想
+当增量和删除列表中的量达到一定阈值的时候，最终会重构整个表
+我印象中好多数据库都是这么做的(？？)
+
+在X100中，对列式存储使用了枚举类型和摘要索引
+这里的枚举类型，我看起来更像是字典压缩，不过X100中的字典压缩和我们在Parquet, ORC中见到的Dictionary Encoding不太一样，在X100中，实际上他能看到整个Dictionary，但在Parquet中压缩过的Dictionary只是在Parquet中的metadata中存取，数据库不可见
+摘要索引，粒度很高，是对一批向量的一个聚合，我感觉这就是一个简单的zone map
+
+
 
