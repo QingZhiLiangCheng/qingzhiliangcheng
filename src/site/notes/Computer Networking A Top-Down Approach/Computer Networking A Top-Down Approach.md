@@ -18,6 +18,7 @@
 	- [[Computer Networking A Top-Down Approach/1.3 网络核心\|1.3 网络核心]]
 	- [[Computer Networking A Top-Down Approach/1.4 接入网和物理媒体\|1.4 接入网和物理媒体]]
 	- [[Computer Networking A Top-Down Approach/1.5 Internet结构和ISP\|1.5 Internet结构和ISP]]
+	- [[Computer Networking A Top-Down Approach/1.6 分组延时, 丢失和吞吐量\|1.6 分组延时, 丢失和吞吐量]]
 
 
 
