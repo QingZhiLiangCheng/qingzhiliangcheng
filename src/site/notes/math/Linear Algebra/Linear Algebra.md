@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-02T12:46","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-04T16:20","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 这是对MIT经典线性代数课程18.06 Linear Algebra, 其授课教授Gilbert Strang的教材《Introduction to Linear Algebra》，以及Youtube系列《线性代数的本质(Essence of Linear Algebra)》等内容的综合整理。
@@ -29,3 +29,4 @@
 - [[math/Linear Algebra/Lecture 19 行列式公式，代数余子式\|Lecture 19 行列式公式，代数余子式]]
 - [[math/Linear Algebra/Lecture 20 克拉默法则，逆矩阵，体积\|Lecture 20 克拉默法则，逆矩阵，体积]]
 - [[math/Linear Algebra/Lecture 21 特征值和特征向量\|Lecture 21 特征值和特征向量]]
+- [[math/Linear Algebra/Lecture 22 对角化, A的幂\|Lecture 22 对角化, A的幂]]
