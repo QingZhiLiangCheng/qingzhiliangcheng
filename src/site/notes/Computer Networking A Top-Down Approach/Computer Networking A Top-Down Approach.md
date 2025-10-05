@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-22T20:10","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-09-24T19:35","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -24,5 +24,3 @@
 
 
 ![[763587 计算机网络自顶向下方法第8版.pdf]]
-
-[[aaa\|aaa]]
