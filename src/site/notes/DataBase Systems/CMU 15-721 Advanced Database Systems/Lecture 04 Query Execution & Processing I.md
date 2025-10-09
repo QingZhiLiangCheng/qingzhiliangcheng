@@ -1,5 +1,5 @@
 ---
-{"created":"2025-09-28T10:00","updated":"2025-09-28T10:45","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 Query Execution & Processing I/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-09-28T10:00","updated":"2025-10-07T18:21","dg-publish":true,"permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 04 Query Execution & Processing I/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![[04-execution1.pdf]]
@@ -49,3 +49,16 @@ Task是由一个或多个算子实例组成的序列，我的理解其实就是�
 
 ### MontDB/X100 Analysis
 这是我们MontDB X100论文所介绍的东西，论文是2005年的论文，主要是对内存工作负载下的瓶颈进行了低层次分析，探讨了OLAP查询所遇到的瓶颈，他们审视了当时所有的系统，并展示了OLAP大规模查询各个操作的耗时，并且发现当时现有系统并未针对当时现代的英特尔所提出的乱序超标量CPU架构进行优化，他们给出了如果重新设计数据库针对CPU所需的选择，即数据向量化的流动，指令等
+#### CPU Overview
+现代的CPU有两种重要的技术，一个是pipeline(流水线), 一个是superscalar, Out-of-Order Execution(超标量,乱序执行)，这两个技术在计算机组成原理的最后都提到过，在NJU jyy老师的操作系统课上也提到过超标量乱序执行可能所造成的并发问题。
+不管是流水线还是超标量技术，都是建立在一种乐观，或者是预测的状态下，他很快，但是遇到Dpendencies(依赖关系)和Branch Prediction(分支预测)的情况，反而可能会造成一些问题
+- 依赖关系: 当一条指令需要上一条指令的计算结果时，那就只能等
+- 分支预测：当遇到类似if-else的循环的时候，CPU会预测一个分支进行执行，但如果一旦发现错误，会扔掉流水线中的所有预测后所执行的代码，重新执行
+
+在分支预测这一方面，实际上英特尔就做的很好了，而且分支预测这个东西很复杂，它就像是一种秘方，是英特尔没有公开的东西
+不管怎么说，paper中所提到的Dpendencies和Branch Prediction这两种情况，是想告诉我们，如果系统架构中包含大量条件判断，可能会适得其反
+在数据库中，最频繁的分支情况出现在顺序扫描期间的过滤操作，这几乎是不太可能总是正确预测的，因为我们数据库自己都可能预测失败，更不用说CPU对数据库的信息一无所知了
+C++20提供了一种新的特性[C++ attribute: likely, unlikely (since C++20) - cppreference.com](https://en.cppreference.com/w/cpp/language/attributes/likely)来给编译器指导，它制定了某个条件子句是可能的还是不太可能的，Clickhouse, Postgres会有这个功能，DuckDB没有；这并非是CPU的提示，我们无法直接告诉CPU我们需要沿着某条路走，这只是给编译器的一个提示，使其有可能重新组织代码，将可能的路径放在顶部
+但是在Intel担任编译器工程师的大佬有一篇文章是说不要用这种方法hhh https://blog.aaronballman.com/2020/08/dont-use-the-likely-or-unlikely-attributes/
+
+
