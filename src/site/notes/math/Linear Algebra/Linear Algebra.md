@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-06T13:29","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-11T10:32","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.07.25 - ing
@@ -32,3 +32,4 @@
 - [[math/Linear Algebra/Lecture 21 特征值和特征向量\|Lecture 21 特征值和特征向量]]
 - [[math/Linear Algebra/Lecture 22 对角化, A的幂, 差分方程\|Lecture 22 对角化, A的幂, 差分方程]]
 - [[math/Linear Algebra/Lecture 23 微分方程，exp(At)\|Lecture 23 微分方程，exp(At)]]
+- [[math/Linear Algebra/Lecture 24 马尔可夫矩阵 傅里叶级数\|Lecture 24 马尔可夫矩阵 傅里叶级数]]
