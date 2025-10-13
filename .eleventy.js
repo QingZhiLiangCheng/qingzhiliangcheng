@@ -671,7 +671,7 @@ function embedPdfPlugin(md) {
             ">
               <h2 style="color: #cc0000; margin-bottom: 0.5em;">😢 PDF 不存在</h2>
               <p style="font-size: 1.1rem;">你请求的文件未找到，可能已经被删除或路径错误。</p>
-              <footer style="margin-top: 1.5em; font-size: 0.9rem; color: #999;">返回主页或联系 情栀凉橙 以获取帮助</footer>
+              <footer style="margin-top: 1.5em; font-size: 0.9rem; color: #999;">返回主页或联系 情栀凉橙(qingzhiliangcheng@gmail.com) 以获取帮助</footer>
             </div>
           \`;
         }
@@ -764,7 +764,7 @@ function embedVideoPlugin(md) {
             ">
               <h2 style="color: #cc0000; margin-bottom: 0.5em;">😢 视频不存在</h2>
               <p style="font-size: 1.1rem;">你请求的文件未找到，可能已经被删除或路径错误。</p>
-              <footer style="margin-top: 1.5em; font-size: 0.9rem; color: #999;">返回主页或联系 情栀凉橙 以获取帮助</footer>
+              <footer style="margin-top: 1.5em; font-size: 0.9rem; color: #999;">返回主页或联系 情栀凉橙(qingzhiliangcheng@gmail.com) 以获取帮助</footer>
             </div>
           \`;
         }
