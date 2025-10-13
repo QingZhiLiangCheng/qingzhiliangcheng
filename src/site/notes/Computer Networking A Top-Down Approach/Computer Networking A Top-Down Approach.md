@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-10-10T13:56","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-10-13T11:45","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -12,7 +12,7 @@
 一定要先看书在看课，课跟书是严格对应的
 老师竟然一直坚持在评论区答疑😍
 
-- [[Computer Networking A Top-Down Approach/Chapter 1 Computer Network and Internet\|Chapter 1 Computer Network and Internet]]
+- [[Computer Networking A Top-Down Approach/Chapter 1 计算机网络概述\|Chapter 1 计算机网络概述]]
 	- [[Computer Networking A Top-Down Approach/1.1 什么是Internet？\|1.1 什么是Internet？]]
 	- [[Computer Networking A Top-Down Approach/1.2 网络边缘\|1.2 网络边缘]]
 	- [[Computer Networking A Top-Down Approach/1.3 网络核心\|1.3 网络核心]]
@@ -20,7 +20,8 @@
 	- [[Computer Networking A Top-Down Approach/1.5 Internet结构和ISP\|1.5 Internet结构和ISP]]
 	- [[Computer Networking A Top-Down Approach/1.6 分组延时, 丢失和吞吐量\|1.6 分组延时, 丢失和吞吐量]]
 	- [[Computer Networking A Top-Down Approach/1.7 协议层次和服务模型\|1.7 协议层次和服务模型]]
-	- 
+- [[Computer Networking A Top-Down Approach/Chapter 2 应用层\|Chapter 2 应用层]]
+	- [[Computer Networking A Top-Down Approach/2.1  应用层协议原理\|2.1  应用层协议原理]]
 
 
 
