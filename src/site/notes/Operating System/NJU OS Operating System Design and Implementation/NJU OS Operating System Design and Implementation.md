@@ -1,5 +1,5 @@
 ---
-{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-10-12T14:26","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-10-14T09:15","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我看的是2022spring的课程
@@ -34,8 +34,8 @@
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 14 C标准库的实现\|Lecture 14 C标准库的实现]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 15 A fork() in the Road\|Lecture 15 A fork() in the Road]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 16 可执行文件\|Lecture 16 可执行文件]]
-- [[Operating System/NJU OS Operating System Design and Implementation/Lecture17 可执行文件的加载\|Lecture17 可执行文件的加载]]
-
+- [[Operating System/NJU OS Operating System Design and Implementation/Lecture 17 可执行文件的加载\|Lecture 17 可执行文件的加载]]
+- [[Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读\|Lecture 18 xv6代码导读]]
 
 **《Operating Systems: Three Easy Pieces》**
 

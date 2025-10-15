@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"lucide//database","dg-publish":true,"dg-pinned":true,"created":"2025-01-20T08:46:32.906+08:00","updated":"2025-09-17T23:06","permalink":"/DataBase Systems/CMU 15-445：Database Systems/CMU 15-445：Database Systems/","pinned":true,"dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"lucide//database","dg-publish":true,"dg-pinned":true,"created":"2025-01-20T08:46:32.906+08:00","updated":"2025-09-17T23:07","banner":"accessory/banner.jpg","permalink":"/DataBase Systems/CMU 15-445：Database Systems/CMU 15-445：Database Systems/","pinned":true,"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.01.20 - 2025.09.17✅
