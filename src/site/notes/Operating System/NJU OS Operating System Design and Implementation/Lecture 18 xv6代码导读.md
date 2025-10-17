@@ -1,5 +1,5 @@
 ---
-{"created":"2025-10-14T09:14","updated":"2025-10-16T16:47","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-10-14T09:14","updated":"2025-10-16T19:47","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### xv6 overview
@@ -38,7 +38,7 @@ xv6有一份手册: [xv6: a simple, Unix-like teaching operating system](https:/
 
 ### xv6中的进程
 init.c文件中的内容
-![Pasted image 20251016155921.png|350](/img/user/accessory/Pasted%20image%2020251016155921.png)
+![Pasted image 20251016194741.png|350](/img/user/accessory/Pasted%20image%2020251016194741.png)
 这是第一个用户态的进程
 它的事情是打开一个叫做console的文件，如果这个文件不存在，就创建它。然后做了一件事是`dup(0),dup(0)`
 这个过程是这样的:
@@ -51,4 +51,11 @@ init.c文件中的内容
 这是文档中所写的xv6的初始状态
 
 ### 调试第一个系统调用
-。。。
+额我发现我转过xv6了，应该装xv6-riscv 这才是新版的那个xv6 (2020年以后)
+```shell
+git clone https://github.com/mit-pdos/xv6-riscv
+```
+但是这个版本报错说
+![Pasted image 20251016195544.png|400](/img/user/accessory/Pasted%20image%2020251016195544.png)
+而且我 `sudo update` 不行
+最后是参考了这篇blog[Ubuntu 22.04 安装 QEMU 流程 - arcsin2 的个人博客](https://arcsin2.cloud/2023/03/03/Ubuntu-22-04-%E5%AE%89%E8%A3%85-QEMU-%E6%B5%81%E7%A8%8B/)
