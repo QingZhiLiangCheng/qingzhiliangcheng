@@ -1,12 +1,12 @@
 ---
-{"created":"2025-10-14T09:14","updated":"2025-10-16T19:47","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-10-14T09:14","updated":"2025-10-19T10:23","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### xv6 overview
 xv6: UNIX v6的现代"克隆"
-可以从github上下载
+可以从github上下载 注意不是xv6-public，我们需要的是xv6-riscv 额我发现我转过xv6了，应该装xv6-riscv 这才是新版的那个xv6 (2020年以后)
 ```shell
-git clone https://github.com/mit-pdos/xv6-public.git
+git clone https://github.com/mit-pdos/xv6-riscv
 ```
 
 可以运行
@@ -14,8 +14,12 @@ git clone https://github.com/mit-pdos/xv6-public.git
 make qemu
 ```
 
-![Pasted image 20251014093502.png|500](/img/user/accessory/Pasted%20image%2020251014093502.png)
-就得到了一个真的xv6的虚拟机
+![Pasted image 20251016195544.png|400](/img/user/accessory/Pasted%20image%2020251016195544.png)
+而且我 `sudo update` 不行, 因为我的Ubuntu能找到的最新版本的qemu为5.6
+最后是参考了这篇blog[Ubuntu 22.04 安装 QEMU 流程 - arcsin2 的个人博客](https://arcsin2.cloud/2023/03/03/Ubuntu-22-04-%E5%AE%89%E8%A3%85-QEMU-%E6%B5%81%E7%A8%8B/)
+最终得到了一个真的xv6的虚拟机，可以按Ctrl A接着按C退出
+![Pasted image 20251019102451.png|400](/img/user/accessory/Pasted%20image%2020251019102451.png)
+
 在这里可以得到完整的UNIX体验，包括管道，重定向等等
 
 xv6提供了21个系统调用，都是我们常用的系统调用
@@ -51,11 +55,4 @@ init.c文件中的内容
 这是文档中所写的xv6的初始状态
 
 ### 调试第一个系统调用
-额我发现我转过xv6了，应该装xv6-riscv 这才是新版的那个xv6 (2020年以后)
-```shell
-git clone https://github.com/mit-pdos/xv6-riscv
-```
-但是这个版本报错说
-![Pasted image 20251016195544.png|400](/img/user/accessory/Pasted%20image%2020251016195544.png)
-而且我 `sudo update` 不行
-最后是参考了这篇blog[Ubuntu 22.04 安装 QEMU 流程 - arcsin2 的个人博客](https://arcsin2.cloud/2023/03/03/Ubuntu-22-04-%E5%AE%89%E8%A3%85-QEMU-%E6%B5%81%E7%A8%8B/)
+
