@@ -1,5 +1,5 @@
 ---
-{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-10-14T09:15","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder","NJU-jjy-OS"],"dg-publish":true,"created":"2025-02-08T15:22:57.470+08:00","updated":"2025-10-19T10:37","permalink":"/Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我看的是2022spring的课程
@@ -14,7 +14,7 @@
 - 一个简化掉Shell中路径显示的好方法`export PS1="\[\e[1;32m\]\u@\h \[\e[1;34m\]\W\[\e[0m\] \$ "`
 - viu
 - fish
-- qemu
+- [[Operating System/NJU OS Operating System Design and Implementation/qemu\|qemu]]
 - pwndgb
 - unzip
 

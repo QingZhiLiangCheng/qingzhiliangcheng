@@ -1,5 +1,5 @@
 ---
-{"created":"2025-10-19T10:19","updated":"2025-10-19T10:26","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/qemu/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-10-19T10:19","updated":"2025-10-19T10:37","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/qemu/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 我的Ubuntu最高能找到的qemu为5.6版本，但是xv6-riscv要求qemu的版本要在7.2以上
@@ -32,7 +32,6 @@ sudo make install
 
 输入`qemu-`按两次TAB，若出现下面类似的输出，则安装成功
 ![Pasted image 20251019102945.png|400](/img/user/accessory/Pasted%20image%2020251019102945.png)
-
 
 
 
