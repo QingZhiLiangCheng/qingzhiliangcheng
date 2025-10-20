@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-15T11:35","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-20T10:17","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.07.25 - ing
@@ -36,4 +36,6 @@
 - lecture 25 复习课 复习二
 - [[math/Linear Algebra/Lecture 26 对称矩阵及其正定性\|Lecture 26 对称矩阵及其正定性]]
 - Lecture 27 复数矩阵 快速傅里叶变换
+- [[math/Linear Algebra/Lecture 28 正定矩阵和最小值\|Lecture 28 正定矩阵和最小值]]
+- [[math/Linear Algebra/Lecture 29 相似矩阵 若尔当型\|Lecture 29 相似矩阵 若尔当型]]
 - 
