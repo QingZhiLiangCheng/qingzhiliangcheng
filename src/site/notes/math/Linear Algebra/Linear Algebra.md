@@ -38,4 +38,5 @@
 - Lecture 27 复数矩阵 快速傅里叶变换
 - [[math/Linear Algebra/Lecture 28 正定矩阵和最小值\|Lecture 28 正定矩阵和最小值]]
 - [[math/Linear Algebra/Lecture 29 相似矩阵 若尔当型\|Lecture 29 相似矩阵 若尔当型]]
+- [[math/Linear Algebra/Lecture 30 奇异值分解\|Lecture 30 奇异值分解]]
 - 
