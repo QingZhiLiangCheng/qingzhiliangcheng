@@ -1,5 +1,5 @@
 ---
-{"created":"2025-10-14T09:14","updated":"2025-10-19T10:23","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-10-14T09:14","updated":"2025-10-23T22:19","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### xv6 overview
@@ -34,7 +34,7 @@ wget https://jyywiki.cn/pages/OS/2022/demos/sh-xv6.c
 ![Pasted image 20251014095242.png|400](/img/user/accessory/Pasted%20image%2020251014095242.png)
 实现shell是这样，那实际上有了这些系统调用，就能去实现linking loader, text editor, assembler....
 更重要的是学习代码的规范...
-![Pasted image 20251014100233.png|500](/img/user/accessory/Pasted%20image%2020251014100233.png)
+![Pasted image 20251023101453.png|500](/img/user/accessory/Pasted%20image%2020251023101453.png)
 偏移量在左边写了注释
 ![Pasted image 20251014100433.png|500](/img/user/accessory/Pasted%20image%2020251014100433.png)
 
@@ -54,5 +54,51 @@ init.c文件中的内容
 ![Pasted image 20251016163409.png|400](/img/user/accessory/Pasted%20image%2020251016163409.png)
 这是文档中所写的xv6的初始状态
 
+### 配置Debug调试
+可以在xv6-riscv目录下，`make qemu-gdb`
+![Pasted image 20251023215857.png|500](/img/user/accessory/Pasted%20image%2020251023215857.png)
+然后可以在另一个shell中，同等目录下启动gdb
+```shell
+gdb
+(gdb) set architecture riscv:rv64
+(gdb) file kernel/kernel
+(gdb) target remote localhost:26000
+(gdb) break main
+(gdb) continue
+```
+
+![Pasted image 20251023220427.png|500](/img/user/accessory/Pasted%20image%2020251023220427.png)
+能看到报错了，而且在设置riscv调试的时候，它觉得undefined，我查了一下，实际上pwndgb里面是包了一个gdb，可能里面的gdb不支持，所以我把我默认的gdb启动pwndgb改掉了
+```shell
+vi ~/.gdbinit
+```
+![Pasted image 20251023220658.png|300](/img/user/accessory/Pasted%20image%2020251023220658.png)
+然后又运行了一遍原生的gdb
+![Pasted image 20251023221012.png|300](/img/user/accessory/Pasted%20image%2020251023221012.png)
+依然不行，所以我发现是gdb的问题，通过查询资料，我装了gdb-multiarch
+```shell
+sudo apt install gdb-multiarch
+```
+
+![Pasted image 20251023221148.png|500](/img/user/accessory/Pasted%20image%2020251023221148.png)
+成功了！然后就可以通过`layout src`进行调试了
+![Pasted image 20251023221218.png|500](/img/user/accessory/Pasted%20image%2020251023221218.png)
+
+但是这种时候gdb可能就不如可视化的CLion，Vscode的调试了，我这里是配置的CLion，具体配置如下
+工具链是我之前写CMU15445就一直配置好的
+![Pasted image 20251023221347.png|500](/img/user/accessory/Pasted%20image%2020251023221347.png)
+一开始Makefile构建不成功，需要执行下面的配置
+首先我配置了Make的执行地址
+![Pasted image 20251023221408.png|500](/img/user/accessory/Pasted%20image%2020251023221408.png)
+工具链还是 wsl，build target 改为qemu，clean 还是 clean
+![Pasted image 20251023221437.png|500](/img/user/accessory/Pasted%20image%2020251023221437.png)
+然后重新构建整个项目
+之后进行运行/调试配置，如下图
+![Pasted image 20251023221518.png|500](/img/user/accessory/Pasted%20image%2020251023221518.png)
+值得注意的是，一开始显示找不到main.c等，能运行但是会直接跳过断点
+![Pasted image 20251023221714.png|500](/img/user/accessory/Pasted%20image%2020251023221714.png)
+一定要加那个路径映射！
+![Pasted image 20251023221906.png|500](/img/user/accessory/Pasted%20image%2020251023221906.png)
+成功！
 ### 调试第一个系统调用
 
