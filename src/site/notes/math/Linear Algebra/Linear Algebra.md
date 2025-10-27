@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-20T10:17","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-10-27T11:14","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.07.25 - ing
@@ -39,4 +39,4 @@
 - [[math/Linear Algebra/Lecture 28 正定矩阵和最小值\|Lecture 28 正定矩阵和最小值]]
 - [[math/Linear Algebra/Lecture 29 相似矩阵 若尔当型\|Lecture 29 相似矩阵 若尔当型]]
 - [[math/Linear Algebra/Lecture 30 奇异值分解\|Lecture 30 奇异值分解]]
-- 
+- [[math/Linear Algebra/Lecture 31 线性变换及其对应矩阵\|Lecture 31 线性变换及其对应矩阵]]
