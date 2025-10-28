@@ -1,18 +1,18 @@
 ---
-{"created":"2025-10-14T09:14","updated":"2025-10-26T18:45","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-10-14T09:14","updated":"2025-10-28T09:09","dg-publish":true,"permalink":"/Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### xv6 overview
 xv6: UNIX v6的现代"克隆"
 可以从github上下载 注意不是xv6-public，我们需要的是xv6-riscv 额我发现我转过xv6了，应该装xv6-riscv 这才是新版的那个xv6 (2020年以后)
-呃呃先后经历了三个版本代码，终于找到和老师一样的了 我哭死😭
+呃呃先后经历了多个版本代码，终于找到和老师一样的了 我哭死😭
 ```shell
 # no
 git clone https://github.com/mit-pdos/xv6-public.git
-# no
+# yes
 git clone https://github.com/mit-pdos/xv6-riscv
-# 是这个😍
-git clone https://github.com/Ran1s/xv6-labs-2021.git
+# 但是要回退导2022年的时候 我随便挑了一个
+git checkout 74c1eba516fdb0ec1a17b16be7e76613ccba92bf
 ```
 
 可以运行
