@@ -36,6 +36,8 @@
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 16 可执行文件\|Lecture 16 可执行文件]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 17 可执行文件的加载\|Lecture 17 可执行文件的加载]]
 - [[Operating System/NJU OS Operating System Design and Implementation/Lecture 18 xv6代码导读\|Lecture 18 xv6代码导读]]
+- [[Operating System/NJU OS Operating System Design and Implementation/Lecture 19 上下文切换\|Lecture 19 上下文切换]]
+- 
 
 **《Operating Systems: Three Easy Pieces》**
 

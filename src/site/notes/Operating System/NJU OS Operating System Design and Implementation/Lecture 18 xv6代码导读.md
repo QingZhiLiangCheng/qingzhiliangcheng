@@ -13,6 +13,8 @@ git clone https://github.com/mit-pdos/xv6-public.git
 git clone https://github.com/mit-pdos/xv6-riscv
 # 但是要回退导2022年的时候 我随便挑了一个
 git checkout 74c1eba516fdb0ec1a17b16be7e76613ccba92bf
+# 或者用这个 我后面用的这个
+git clone https://github.com/Ran1s/xv6-labs-2021.git
 ```
 
 可以运行
