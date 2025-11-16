@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-10-18T15:23","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-11-15T15:19","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -23,7 +23,8 @@
 - [[Computer Networking A Top-Down Approach/Chapter 2 应用层\|Chapter 2 应用层]]
 	- [[Computer Networking A Top-Down Approach/2.1 应用层协议原理\|2.1 应用层协议原理]]
 	- [[Computer Networking A Top-Down Approach/2.2 Web和HTTP\|2.2 Web和HTTP]]
-	- 
+	- [[Computer Networking A Top-Down Approach/2.3 FTP\|2.3 FTP]]
+	- [[Computer Networking A Top-Down Approach/2.4 Email\|2.4 Email]]
 
 
 
