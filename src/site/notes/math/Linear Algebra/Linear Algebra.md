@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-11-26T21:54","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"dg-publish":true,"created":"2025-07-25T14:33:58.533+08:00","updated":"2025-12-01T11:13","permalink":"/math/Linear Algebra/Linear Algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### MIT18.06 Lecture
@@ -45,6 +45,17 @@
 - [[math/Linear Algebra/Lecture 33 左右逆和伪逆\|Lecture 33 左右逆和伪逆]]
 ---
 ### 总结
-📅date:
+📅date: 2025.12.01 - ing
+- [[math/Linear Algebra/Topic 1 向量, 矩阵及乘法, 线性变换, 方程组的联系与本质\|Topic 1 向量, 矩阵及乘法, 线性变换, 方程组的联系与本质]]
+- [[math/Linear Algebra/Topic 2 求解方程组 矩阵消元法, Ax=0, Ax=b, LU分解\|Topic 2 求解方程组 矩阵消元法, Ax=0, Ax=b, LU分解]]
+- [[math/Linear Algebra/Topic 3 四个子空间与方程组的联系\|Topic 3 四个子空间与方程组的联系]]
+- [[math/Linear Algebra/Topic 4 正交\|Topic 4 正交]]
+- [[math/Linear Algebra/Topic 5 投影\|Topic 5 投影]]
+- [[math/Linear Algebra/Topic 6 行列式\|Topic 6 行列式]]
+- [[math/Linear Algebra/Topic 7 特征值与特征向量\|Topic 7 特征值与特征向量]]
+- [[math/Linear Algebra/Topic 8 对角化\|Topic 8 对角化]]
+- [[math/Linear Algebra/Topic 9 正定\|Topic 9 正定]]
+- [[math/Linear Algebra/Topic 10 相似\|Topic 10 相似]]
+
 
 Next Lesson: [[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning/MIT 18.065 Matrix Methods In Data Analysis, Signal Processing, And Machine Learning\|MIT 18.065 Matrix Methods In Data Analysis, Signal Processing, And Machine Learning]] 数据分析，信号处理，机器学习中的矩阵方法😍，也是Gilbert Strang教授的课，这个时候(2018年)他已经头发全白了😭
