@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-11-15T15:19","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-12-01T20:25","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -26,7 +26,12 @@
 	- [[Computer Networking A Top-Down Approach/2.3 FTP\|2.3 FTP]]
 	- [[Computer Networking A Top-Down Approach/2.4 Email\|2.4 Email]]
 	- [[Computer Networking A Top-Down Approach/2.5 DNS\|2.5 DNS]]
-	- 
+- Chapter 3 传输层
+	- [[Computer Networking A Top-Down Approach/3.1 传输层概述和传输层服务\|3.1 传输层概述和传输层服务]]
+	- [[Computer Networking A Top-Down Approach/3.2 多路复用和解复用\|3.2 多路复用和解复用]]
+	- [[Computer Networking A Top-Down Approach/3.3 无连接传输UDP\|3.3 无连接传输UDP]]
+	- [[Computer Networking A Top-Down Approach/3.4 可靠数据传输的原理\|3.4 可靠数据传输的原理]]
+	- [[Computer Networking A Top-Down Approach/3.5 面相连接的传输TCP\|3.5 面相连接的传输TCP]]
 
 
 
