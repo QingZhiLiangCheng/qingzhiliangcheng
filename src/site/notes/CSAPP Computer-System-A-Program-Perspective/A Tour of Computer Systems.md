@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"created":"2024-09-29T11:13:27.659+08:00","updated":"2025-03-30T15:23:23.420+08:00","permalink":"/CSAPP Computer-System-A-Program-Perspective/A Tour of Computer Systems/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"created":"2024-09-29T11:13:27.659+08:00","updated":"2025-12-28T16:05","tags":["caspp"],"permalink":"/CSAPP Computer-System-A-Program-Perspective/A Tour of Computer Systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

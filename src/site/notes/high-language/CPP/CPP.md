@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"created":"2025-04-20T11:20:01.294+08:00","updated":"2025-07-31T20:35:27.404+08:00","permalink":"/high-language/CPP/CPP/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"created":"2025-04-20T11:20:01.294+08:00","updated":"2025-12-28T16:45","permalink":"/high-language/CPP/CPP/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -22,4 +22,4 @@ ChengZiList的灵感来源于我之前看的两个课程: CS61B 和 CMU15445。C
 
 基于这些启发，我在ChengZiList中提供了完整的文档，并使用Google Test框架编写了全面的测试用例。项目从简单的链表实现入手，逐步引入双向循环链表以及更复杂的数据结构。在这个过程中，诸如“为什么需要虚拟头节点”、“双向链表的优势是什么”、“为什么要进行动态扩容”等问题都会迎刃而解。同时，学习者还能通过实践深刻体会到C++中面向对象特性——如封装、继承、多态和重载的魅力所在。
 
-[[high-language/CPP/ChengZiList/ChengZiList\|ChengZiList]]
+[[high-language/CPP/ChengZiList/List\|List]]
