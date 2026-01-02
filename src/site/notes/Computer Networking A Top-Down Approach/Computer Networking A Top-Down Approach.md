@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-12-27T13:37","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-12-27T14:10","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -35,6 +35,11 @@
 	- [[Computer Networking A Top-Down Approach/3.3 无连接传输UDP\|3.3 无连接传输UDP]]
 	- [[Computer Networking A Top-Down Approach/3.4 可靠数据传输的原理\|3.4 可靠数据传输的原理]]
 	- [[Computer Networking A Top-Down Approach/3.5 面相连接的传输TCP\|3.5 面相连接的传输TCP]]
+	- [[Computer Networking A Top-Down Approach/3.6 拥塞控制原理\|3.6 拥塞控制原理]]
+	- [[Computer Networking A Top-Down Approach/3.7 TCP拥塞控制\|3.7 TCP拥塞控制]]
+- Chapter 4 网络层数据平面
+- Chapter 5 网络层控制平面
+- Chapter 6 链路层和局域网
 
 
 
