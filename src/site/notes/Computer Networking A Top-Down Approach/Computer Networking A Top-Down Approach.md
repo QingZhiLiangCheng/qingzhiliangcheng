@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2025-12-27T14:10","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-01-03T23:00","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -20,6 +20,7 @@
 	- [[Computer Networking A Top-Down Approach/1.5 Internet结构和ISP\|1.5 Internet结构和ISP]]
 	- [[Computer Networking A Top-Down Approach/1.6 分组延时, 丢失和吞吐量\|1.6 分组延时, 丢失和吞吐量]]
 	- [[Computer Networking A Top-Down Approach/1.7 协议层次和服务模型\|1.7 协议层次和服务模型]]
+	- [[Computer Networking A Top-Down Approach/Chapter 1 Homework Problems and Questions\|Chapter 1 Homework Problems and Questions]]
 - [[Computer Networking A Top-Down Approach/Chapter 2 应用层\|Chapter 2 应用层]]
 	- [[Computer Networking A Top-Down Approach/2.1 应用层协议原理\|2.1 应用层协议原理]]
 	- [[Computer Networking A Top-Down Approach/2.2 Web和HTTP\|2.2 Web和HTTP]]
@@ -38,7 +39,18 @@
 	- [[Computer Networking A Top-Down Approach/3.6 拥塞控制原理\|3.6 拥塞控制原理]]
 	- [[Computer Networking A Top-Down Approach/3.7 TCP拥塞控制\|3.7 TCP拥塞控制]]
 - Chapter 4 网络层数据平面
+	- [[Computer Networking A Top-Down Approach/4.1 第四章导论\|4.1 第四章导论]]
+	- [[Computer Networking A Top-Down Approach/4.2 路由器组成\|4.2 路由器组成]]
+	- [[Computer Networking A Top-Down Approach/4.3 IP - Internet Protocol\|4.3 IP - Internet Protocol]]
+	- [[Computer Networking A Top-Down Approach/4.4 通用转发和SDN\|4.4 通用转发和SDN]]
 - Chapter 5 网络层控制平面
+	- [[Computer Networking A Top-Down Approach/5.1 第五章导论\|5.1 第五章导论]]
+	- [[Computer Networking A Top-Down Approach/5.2 路由选择算法\|5.2 路由选择算法]]
+	- [[Computer Networking A Top-Down Approach/5.3 因特网中自治系统内部的路由选择\|5.3 因特网中自治系统内部的路由选择]]
+	- [[Computer Networking A Top-Down Approach/5.4 ISP之间的路由选择 - BGP\|5.4 ISP之间的路由选择 - BGP]]
+	- [[Computer Networking A Top-Down Approach/5.5 SDN控制平面\|5.5 SDN控制平面]]
+	- [[Computer Networking A Top-Down Approach/5.6 ICMP - 因特网控制报文协议\|5.6 ICMP - 因特网控制报文协议]]
+	- [[Computer Networking A Top-Down Approach/5.7 网络管理和SNMP(略)\|5.7 网络管理和SNMP(略)]]
 - Chapter 6 链路层和局域网
 
 
