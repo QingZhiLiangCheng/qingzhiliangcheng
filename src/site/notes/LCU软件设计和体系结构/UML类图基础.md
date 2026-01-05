@@ -1,8 +1,9 @@
 ---
-{"created":"2025-11-17T10:29","updated":"2025-11-18T15:37","dg-publish":true,"permalink":"/LCU软件设计和体系结构/UML类图基础/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-11-17T10:29","updated":"2025-11-20T16:34","dg-publish":true,"permalink":"/LCU软件设计和体系结构/UML类图基础/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-![Pasted image 20251118153233.png](/img/user/accessory/Pasted%20image%2020251118153233.png)
+ ![Pasted image 20251118153233.png](/img/user/accessory/Pasted%20image%2020251118153233.png)
+ 上面这个图好像不太对的样子hh
 
 | 关系类型   | 中文含义     | 耦合强度   | 生命周期关系 | 生活比喻    | UML    |
 | :----- | :------- | :----- | :----- | :------ | ------ |
