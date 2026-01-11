@@ -1,5 +1,5 @@
 ---
-{"created":"2025-12-28T14:37","updated":"2025-12-29T09:53","dg-publish":true,"permalink":"/LCU Computer Networking/数据链路层：最短帧长 循环冗余码 GBN累计确认 CDMA码分多址 交换机自学习 PPP与零比特填充/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-12-28T14:37","updated":"2026-01-10T10:15","dg-publish":true,"permalink":"/LCU Computer Networking/数据链路层：最短帧长 循环冗余码 GBN累计确认 CDMA码分多址 交换机自学习 PPP与零比特填充/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### 最短帧长
@@ -59,4 +59,4 @@ eg: 待发送的信息为101001，生成多项式为$G(x)=x^3+x^2+1$,计算余�
 ![730ab77ff47b0402a5c85682dad58a30.jpg|500](/img/user/accessory/730ab77ff47b0402a5c85682dad58a30.jpg)
 
 ### PPP与零比特填充
-![312d11f2286885973832e7a5ad4c90ee.jpg](/img/user/accessory/312d11f2286885973832e7a5ad4c90ee.jpg)
+![312d11f2286885973832e7a5ad4c90ee.jpg|500](/img/user/accessory/312d11f2286885973832e7a5ad4c90ee.jpg)
