@@ -1,5 +1,5 @@
 ---
-{"created":"2025-11-20T19:14","updated":"2025-11-20T19:14","dg-publish":true,"permalink":"/LCU项目管理/PERT 三点估算法/","dgPassFrontmatter":true,"noteIcon":""}
+{"created":"2025-11-20T19:14","updated":"2025-11-20T19:52","dg-publish":true,"permalink":"/LCU项目管理/PERT 三点估算法/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 三个要素: 悲观O, 乐观P，最有可能值M
@@ -17,3 +17,4 @@
 ![Pasted image 20251120194729.png|500](/img/user/accessory/Pasted%20image%2020251120194729.png)
 C
 
+![Pasted image 20260114104006.png|400](/img/user/accessory/Pasted%20image%2020260114104006.png)
