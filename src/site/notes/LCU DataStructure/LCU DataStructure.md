@@ -28,7 +28,7 @@
 [[LCU DataStructure/树\|树]]
 	- [[LCU DataStructure/二叉树\|二叉树]]
 	- [[LCU DataStructure/红黑树\|红黑树]]
-[[LCU DataStructure/图\|图]]
+[[LCU DataStructure/图\|LCU DataStructure/图]]
 	![[6 第七章图-2023.ppt]]
 
 期末复习：
