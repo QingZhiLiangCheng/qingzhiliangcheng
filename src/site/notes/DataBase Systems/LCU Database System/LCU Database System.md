@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//database","dg-publish":true,"tags":["LCU数据库"],"created":"2025-04-09T13:35:44.736+08:00","updated":"2025-08-09T15:48:19.323+08:00","permalink":"/DataBase Systems/LCU Database System/LCU Database System/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"lucide//database","dg-publish":true,"tags":["LCU数据库"],"created":"2025-04-09T13:35:44.736+08:00","updated":"2026-01-28T16:58","permalink":"/DataBase Systems/LCU Database System/LCU Database System/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅spring2025 date: 2025.04.09 - 2025.06.27 完结✅
@@ -26,8 +26,6 @@ LCU的数据库课的lab使用的是SQL Server数据库
 [[DataBase Systems/LCU Database System/lab1 模式定义与数据完整性操作\|lab1 模式定义与数据完整性操作]]
 [[DataBase Systems/LCU Database System/lab2 SQL数据操作及查询\|lab2 SQL数据操作及查询]]
 ....
-
-
 ### LCU Database System Course
 课本pdf: https://pan.baidu.com/s/1pzAJqBN0LuXk838H7WnD5Q?pwd=QZLC 
 我参考了这个[【专栏必读】（考研复试）数据库系统概论第五版（王珊）专栏学习笔记目录导航及课后习题答案详解_数据库系统概论第五版课后答案pdf-CSDN博客](https://blog.csdn.net/qq_39183034/article/details/122771126)
