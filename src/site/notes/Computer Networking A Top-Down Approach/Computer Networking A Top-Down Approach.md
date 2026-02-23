@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-01-03T23:00","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-02-22T21:05","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -46,13 +46,17 @@
 - Chapter 5 网络层控制平面
 	- [[Computer Networking A Top-Down Approach/5.1 第五章导论\|5.1 第五章导论]]
 	- [[Computer Networking A Top-Down Approach/5.2 路由选择算法\|5.2 路由选择算法]]
-	- [[Computer Networking A Top-Down Approach/5.3 因特网中自治系统内部的路由选择\|5.3 因特网中自治系统内部的路由选择]]
+	- [[Computer Networking A Top-Down Approach/5.3 因特网中自治系统内部的路由选择 RIP OSPF\|5.3 因特网中自治系统内部的路由选择 RIP OSPF]]
 	- [[Computer Networking A Top-Down Approach/5.4 ISP之间的路由选择 - BGP\|5.4 ISP之间的路由选择 - BGP]]
 	- [[Computer Networking A Top-Down Approach/5.5 SDN控制平面\|5.5 SDN控制平面]]
-	- [[Computer Networking A Top-Down Approach/5.6 ICMP - 因特网控制报文协议\|5.6 ICMP - 因特网控制报文协议]]
-	- [[Computer Networking A Top-Down Approach/5.7 网络管理和SNMP(略)\|5.7 网络管理和SNMP(略)]]
 - Chapter 6 链路层和局域网
-
+	- 引论和服务
+	- 差错检测和纠正
+	- 多点访问协议
+	- LANs
+	- 链路虚拟化：MPLS
+	- 数据中心网络
+	- a day in the life of web request
 
 
 
