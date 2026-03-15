@@ -1,5 +1,5 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-02-22T21:05","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-03-15T15:12","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 📅date: 2025.09.04 - ing
@@ -50,11 +50,11 @@
 	- [[Computer Networking A Top-Down Approach/5.4 ISP之间的路由选择 - BGP\|5.4 ISP之间的路由选择 - BGP]]
 	- [[Computer Networking A Top-Down Approach/5.5 SDN控制平面\|5.5 SDN控制平面]]
 - Chapter 6 链路层和局域网
-	- 引论和服务
-	- 差错检测和纠正
-	- 多点访问协议
-	- LANs
-	- 链路虚拟化：MPLS
+	- [[Computer Networking A Top-Down Approach/6.1 链路层和局域网引论和服务\|6.1 链路层和局域网引论和服务]]
+	- [[Computer Networking A Top-Down Approach/6.2 差错检测和纠正\|6.2 差错检测和纠正]]
+	- [[Computer Networking A Top-Down Approach/6.3 多点访问协议\|6.3 多点访问协议]]
+	- [[Computer Networking A Top-Down Approach/6.4 LANs\|6.4 LANs]]
+	- [[Computer Networking A Top-Down Approach/6.5 链路虚拟化\|6.5 链路虚拟化]]
 	- 数据中心网络
 	- a day in the life of web request
 
