@@ -1,8 +1,8 @@
 ---
-{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-03-15T15:12","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
+{"tags":["folder"],"sticker":"emoji//1f4e1","created":"2025-09-04T15:59","updated":"2026-03-18T11:38","dg-publish":true,"permalink":"/Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-📅date: 2025.09.04 - ing
+📅date: 2025.09.04 - 2026.03.18
 中国科学技术大学郑烇老师的计算机网络课程
 - 课程网站: [http://staff.ustc.edu.cn/~qzheng/teaching.html](http://staff.ustc.edu.cn/~qzheng/teaching.html)
 - 课程视频: 2021年的视频 [https://www.bilibili.com/video/BV1JV411t7ow/](https://www.bilibili.com/video/BV1JV411t7ow/)
@@ -54,9 +54,6 @@
 	- [[Computer Networking A Top-Down Approach/6.2 差错检测和纠正\|6.2 差错检测和纠正]]
 	- [[Computer Networking A Top-Down Approach/6.3 多点访问协议\|6.3 多点访问协议]]
 	- [[Computer Networking A Top-Down Approach/6.4 LANs\|6.4 LANs]]
-	- [[Computer Networking A Top-Down Approach/6.5 链路虚拟化\|6.5 链路虚拟化]]
-	- 数据中心网络
-	- a day in the life of web request
 
 
 
