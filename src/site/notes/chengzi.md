@@ -1,11 +1,61 @@
 ---
-{"sticker":"emoji//1f3e0","dg-publish":true,"dg-home":false,"created":"2025-08-15T09:37","updated":"2026-06-25T20:06","permalink":"/chengzi/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"sticker":"emoji//1f3e0","created":"2025-08-15T09:37","updated":"2026-06-25T20:06"}}
+{"sticker":"emoji//1f3e0","dg-publish":true,"dg-home":false,"created":"2025-08-15T09:37","updated":"2026-08-31T14:42","permalink":"/chengzi/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"sticker":"emoji//1f3e0","created":"2025-08-15T09:37","updated":"2026-08-31T14:42"}}
 ---
 
 
 >✒️签名
 「幸福就是 橙子🍊不去想苹果🍎的事情」
 
+```cpp
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdatomic.h>
+#include <assert.h>
+#include <unistd.h>
+#include <pthread.h>
+
+#define NTHREAD 64
+enum { T_FREE = 0, T_LIVE, T_DEAD, };
+struct thread {
+  int id, status;
+  pthread_t thread;
+  void (*entry)(int);
+};
+
+struct thread tpool[NTHREAD], *tptr = tpool;
+
+void *wrapper(void *arg) {
+  struct thread *thread = (struct thread *)arg;
+  thread->entry(thread->id);
+  return NULL;
+}
+
+void create(void *fn) {
+  assert(tptr - tpool < NTHREAD);
+  *tptr = (struct thread) {
+    .id = tptr - tpool + 1,
+    .status = T_LIVE,
+    .entry = fn,
+  };
+  pthread_create(&(tptr->thread), NULL, wrapper, tptr);
+  ++tptr;
+}
+
+void join() {
+  for (int i = 0; i < NTHREAD; i++) {
+    struct thread *t = &tpool[i];
+    if (t->status == T_LIVE) {
+      pthread_join(t->thread, NULL);
+      t->status = T_DEAD;
+    }
+  }
+}
+
+__attribute__((destructor)) void cleanup() {
+  join();
+}
+```
 ### Cpp
 大一下学期 spring2024
 当时学cpp的时候还没有开始用obsidian，所以没有留笔记，只留了大作业
@@ -180,7 +230,7 @@ LCU的操作系统课的实验分为三个部分 分别是进程调度实验, �
 [[math/MIT 18.01 Single Variable Calculus/MIT 18.01 Single Variable Calculus\|MIT 18.01 Single Variable Calculus]]
 [[Operating System/LCU Operating System/LCU Operating System\|LCU Operating System]]
 [[Operating System/NJU OS Operating System Design and Implementation/NJU OS Operating System Design and Implementation\|NJU OS Operating System Design and Implementation]]
-[[Principles of computer composition/考研计组笔记/考研计组笔记\|考研计组笔记]]
+[[Principles of computer composition/西电车向泉老师计算机组成原理/西电车向泉老师计算机组成原理\|西电车向泉老师计算机组成原理]]
 [[Principles of computer composition/LCU principles of computer composition/LCU principles of computer composition\|LCU principles of computer composition]]
 
 
