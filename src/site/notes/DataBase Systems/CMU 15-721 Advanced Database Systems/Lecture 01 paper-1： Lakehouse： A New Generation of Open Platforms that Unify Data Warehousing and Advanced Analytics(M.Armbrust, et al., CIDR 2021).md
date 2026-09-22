@@ -1,5 +1,5 @@
 ---
-{"tags":["CMU15721"],"dg-publish":true,"created":"2025-06-28T16:34:33.903+08:00","updated":"2025-07-03T20:34:43.828+08:00","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["CMU15721"],"created":"2025-06-28T16:34:33.903+08:00","updated":"2025-07-03T20:34:43.828+08:00"}}
+{"tags":["CMU15721"],"dg-publish":true,"created":"2025-06-28T16:34:33.903+08:00","updated":"2026-09-09T16:05","permalink":"/DataBase Systems/CMU 15-721 Advanced Database Systems/Lecture 01 paper-1： Lakehouse： A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics(M.Armbrust, et al., CIDR 2021)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["CMU15721"],"created":"2025-06-28T16:34:33.903+08:00","updated":"2026-09-09T16:05"}}
 ---
 
 <iframe src="/img/user/accessory/armbrust-cidr21.pdf" width="100%" height="900px" title="armbrust-cidr21.pdf" style="border:1px solid #ccc;"></iframe>
@@ -9,7 +9,7 @@
 ### Abstract
 这篇论文认为，我们目前的传统数据仓库架构将会被一种新的架构模式——Lakehouse所取代，并且论述了Lakehouse的创新点和如何影响数据库管理领域的，最终通过TPC-DS测试(这是评估数据仓库查询性能的标准测试) 结果说明其能与当前流行的主流云数据库想媲美。
 在文章的abstract部分，其实就已经很明了的说明了Lakehouse的三个核心特征
-- 基于开放的、可直接访问的数据格式。如Apache Requet. Apache Parquet 是一种专为高效存储和处理大规模数据而设计的开源列式存储格式，广泛应用于大数据系统（如 Spark、Hive、Presto、Trino、Snowflake、Lakehouse 等），在CMU15445中我们也学习过列存储的压缩，效率比较高。
+- 基于开放的、可直接访问的数据格式。如Apache Parquet. Apache Parquet 是一种专为高效存储和处理大规模数据而设计的开源列式存储格式，广泛应用于大数据系统（如 Spark、Hive、Presto、Trino、Snowflake、Lakehouse 等），在CMU15445中我们也学习过列存储的压缩，效率比较高。
 - 支持机器学习和数据科学
 - 具有先进的性能表现
 

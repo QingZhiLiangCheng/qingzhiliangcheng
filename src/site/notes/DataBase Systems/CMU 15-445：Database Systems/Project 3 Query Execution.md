@@ -1,5 +1,5 @@
 ---
-{"tags":["bustub","project","cmu15445"],"dg-publish":true,"created":"2025-05-15T20:21:35.866+08:00","updated":"2025-08-07T19:24:53.607+08:00","permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 3 Query Execution/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["bustub","project","cmu15445"],"created":"2025-05-15T20:21:35.866+08:00","updated":"2025-08-07T19:24:53.607+08:00"}}
+{"tags":["bustub","project","cmu15445"],"dg-publish":true,"created":"2025-05-15T20:21:35.866+08:00","updated":"2026-09-09T09:21","permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 3 Query Execution/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["bustub","project","cmu15445"],"created":"2025-05-15T20:21:35.866+08:00","updated":"2026-09-09T09:21"}}
 ---
 
 ### Overview
@@ -63,9 +63,10 @@ Bustub 的 Optimizer 采用第一种实现方式
 2. Materialization Model 所有算子立即计算出所有结果并返回。和 Iterator Model 相反。这种模型的弊端显而易见，当数据量较大时，内存占用很高。但减少了函数调用的开销。比较适合查询数据量较小的 OLTP workloads。
 3. Vectorization Model. 对上面两种模型的中和，一次调用返回一批数据。利于 SIMD 加速。目前比较先进的 OLAP 数据库都采用这种模型。
 Bustub采用的是火山模型
+
 此外，[[DataBase Systems/CMU 15-445：Database Systems/Lecture 12 Query Execution Part 1\|Lecture 12 Query Execution Part 1]]也提到了算子的执行方向也有两种:
-4. Top-to-Bottom. 从根节点算子开始，不断地 pull 下层算子的数据。
-5. Bottom-to-Top. 从叶子节点算子开始，向上层算子 push 自己的数据。
+1. Top-to-Bottom. 从根节点算子开始，不断地 pull 下层算子的数据。
+2. Bottom-to-Top. 从叶子节点算子开始，向上层算子 push 自己的数据。
 Bustub 采用 Top-to-Bottom和Iterator Model
 ![Pasted image 20250322161802.png](/img/user/accessory/Pasted%20image%2020250322161802.png)
 **Executor**

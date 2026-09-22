@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f973","tags":["folder"],"dg-publish":true,"dg-pinned":true,"created":"2025-03-02T21:48:21.662+08:00","updated":"2025-07-31T20:35:19.466+08:00","permalink":"/CS 61B/CS 61B/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"sticker":"emoji//1f973","tags":["folder"],"created":"2025-03-02T21:48:21.662+08:00","updated":"2025-07-31T20:35:19.466+08:00"}}
+{"sticker":"emoji//1f973","tags":["folder"],"dg-publish":true,"dg-pinned":true,"created":"2025-03-02T21:48:21.662+08:00","updated":"2026-09-22T09:02","permalink":"/CS 61B/CS 61B/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"sticker":"emoji//1f973","tags":["folder"],"created":"2025-03-02T21:48:21.662+08:00","updated":"2026-09-22T09:02"}}
 ---
 
 📅date: 2025.03.02 - ing
@@ -18,7 +18,7 @@ CS61B，主要内容为Java和数据结构。其中，前4周的时间都在谈J
 
 **笔记**
 
-[[CS 61B/Lecture 01 Introduce\|Lecture 01 Introduce]]
+[[CS 61B/Lecture 01 Introduce\|CS 61B/Lecture 01 Introduce]]
 [[CS 61B/Lecture 02 Defining and Using Classes\|Lecture 02 Defining and Using Classes]]
 [[CS 61B/Lecture 03 List I：References, Recursion, and Lists\|Lecture 03 List I：References, Recursion, and Lists]]
 [[CS 61B/Lecture 04 List II SLLists, Nested Classes, Sentinel Nodes\|Lecture 04 List II SLLists, Nested Classes, Sentinel Nodes]]

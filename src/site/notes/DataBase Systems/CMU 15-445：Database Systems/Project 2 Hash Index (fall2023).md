@@ -1,5 +1,5 @@
 ---
-{"tags":["project","cmu15445","bustub"],"dg-publish":true,"created":"2025-04-30T23:10:47.890+08:00","updated":"2025-05-04T16:11:15.256+08:00","permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 2 Hash Index (fall2023)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["project","cmu15445","bustub"],"created":"2025-04-30T23:10:47.890+08:00","updated":"2025-05-04T16:11:15.256+08:00"}}
+{"tags":["project","cmu15445","bustub"],"dg-publish":true,"created":"2025-04-30T23:10:47.890+08:00","updated":"2026-09-09T08:32","permalink":"/DataBase Systems/CMU 15-445：Database Systems/Project 2 Hash Index (fall2023)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"tags":["project","cmu15445","bustub"],"created":"2025-04-30T23:10:47.890+08:00","updated":"2026-09-09T08:32"}}
 ---
 
 ### Task 1 - Read/Write Page Guards
@@ -297,7 +297,7 @@ void ExtendibleHTableHeaderPage::SetDirectoryPageId(uint32_t directory_idx, page
   directory_page_ids_[directory_idx] = directory_page_id;  
 }
 ```
-### Hash Table Directory Page
+#### Hash Table Directory Page
 directory中有两个depth：
 - Global Depth：若global depth为n，那么这个Directory就有$2^n$个entry（相当于指向$2^n$个bucket）
 - Local Depth：若local depth为n，则在这个对应的bucket下，每个元素的key的最后n位都相同
