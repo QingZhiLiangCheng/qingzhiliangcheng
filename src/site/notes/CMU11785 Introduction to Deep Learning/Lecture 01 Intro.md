@@ -1,5 +1,5 @@
 ---
-{"created":"2026-09-22T09:01","updated":"2026-09-26T19:50","dg-publish":true,"permalink":"/CMU11785 Introduction to Deep Learning/Lecture 01 Intro/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"created":"2026-09-22T09:01","updated":"2026-09-26T19:50"}}
+{"created":"2026-09-22T09:01","updated":"2026-11-10T15:55","dg-publish":true,"permalink":"/CMU11785 Introduction to Deep Learning/Lecture 01 Intro/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"created":"2026-09-22T09:01","updated":"2026-11-10T15:55"}}
 ---
 
 ### Overview
@@ -27,6 +27,7 @@
 如果是持续冷刺激 会激活4 产生冷的感觉 抑制红色 防止产生热的感觉
 如果是热刺激 激活3 产生热的感觉
 
+But 他们并没有证明任何结果 也没有提出一种机制 可以通过这种机制学习某些行为。
 ### Hebbian Learning
 **网络是怎么学习的？**
 Donald Hebb：当细胞 A 的轴突足够接近、能够激活细胞 B，并且反复或持续地参与使 B 放电时，A 对 B 的作用效率就会增强。
@@ -42,10 +43,10 @@ $$
 $w_{xy}$是x和y的连接权重  x: x神经元当前的活动强度；y: 神经元y当前的活动强度  $\eta$：学习率，决定每次增强多少
 所以说如果x和y的活动强度只取0和1  如果x和y都被激活$\eta xy$才是非0 其他情况都为0
 
-但这个模型：**没有边界 会一直增长**
-人类的神经元实际上连接的强度可以减少：Frank Rosenblatt 1958 新model **感知器模型（Perceptron）**
+但这个模型：**没有边界 会一直增长** -- 不稳定
+人类的神经元实际上连接的强度可以减少：Frank Rosenblatt 1958 新model **感知机模型（Perceptron）**
 
-### 感知器模型 Perceptron -> MLP
+### 感知机模型 Perceptron -> MLP
 模仿了视觉系统：
 ![Pasted image 20260924205817.png\|500](/img/user/accessory/Pasted%20image%2020260924205817.png)
 视网膜上有很多传感器 这些感受器会使得A1投影区域的某些神经元放电 然后会使A2 联想区域神经元放电 会引起相应单元R反应 然后反应还会反馈到联想区域
@@ -57,23 +58,26 @@ $w_{xy}$是x和y的连接权重  x: x神经元当前的活动强度；y: 神经�
 感觉单元输入关联单元 关联单元在输入到反应单元
 每个单元如何工作？
 ![Pasted image 20260924210438.png](/img/user/accessory/Pasted%20image%2020260924210438.png)
-每个单元有一组输入 每个输入都有一个权重 如果神经元的加权和超过阈值 输出1 否则0 激活函数是个阈值函数
+每个单元有一组输入 每个输入都有一个权重 如果神经元的加权和超过阈值 输出1 否则0 激活函数是个阈值函数(Threshold)
 学习算法：
 $$\mathbf w \leftarrow \mathbf w+\eta\big(d(x)-y(x)\big)\mathbf x$$
-d(x): 正确答案 y(x)感知器模型当前的输入  $\eta$: 学习率 x: 当前输入向量 w:权重向量
-这里的思想是这样：由于感知器模型的输出取决于神经元的加权和与阈值的关系；所以如果应该输出1 但输出0 说明权重太小了 增加相关权重；如果应该输出0 实际上输出1 应该减少相关权重 -- 所以这是一个不断学习和训练的过程
+d(x): 正确答案 y(x)感知机模型当前的输入  $\eta$: 学习率 x: 当前输入向量 w:权重向量
+这里的思想是这样：由于感知机模型的输出取决于神经元的加权和与阈值的关系；所以如果应该输出1 但输出0 说明权重太小了 增加相关权重；如果应该输出0 实际上输出1 应该减少相关权重 -- 所以这是一个不断学习和训练的过程
 如果数据是线性可分的，感知机学习算法最终能够找到正确分类的权重！
 可以实现一些逻辑门运算
 ![Pasted image 20260924211613.png\|400](/img/user/accessory/Pasted%20image%2020260924211613.png)
 但不能模拟异或
-单个感知器就像个神经元 -> 神经性的连接的 网络
+单个感知机就像个神经元 -> 神经性的连接的网络：多层感知机
 异或：
 ![Pasted image 20260926193958.png\|400](/img/user/accessory/Pasted%20image%2020260926193958.png)
+这里有一个术语叫：hidden layer：我们只对输入和输出感兴趣，不在乎中间发生了什么 中间的这部分就叫做隐藏层
 就可以组合任意的布尔函数
 对于布尔函数来说 输入是0或1的布尔值 输出也是0或1的布尔值
 
+
 **But our brain is not Boolean. We have real inputs.**
-所以让感知器的输入$x_1...x_N$都是实值  权重$w_1...w_N$本来就是实值
+所以让感知机的输入$x_1...x_N$都是实值 都是连续的  权重$w_1...w_N$本来就是实值
+![Pasted image 20261110155421.png\|496](/img/user/accessory/Pasted%20image%2020261110155421.png)
 对于
 $$
 y= \begin{cases} 1,&if\sum_{i=1}^{N}w_i x_i-T<0\\ 0,&else \end{cases}
@@ -82,14 +86,24 @@ $$
 ![Pasted image 20260927210941.png\|300](/img/user/accessory/Pasted%20image%2020260927210941.png)
 
 可以对阈值函数进行重写，加上一个偏置项b 变成输入的一个仿射函数
+![Pasted image 20260930183509.png\|400](/img/user/accessory/Pasted%20image%2020260930183509.png)
 $$
 \begin{aligned}
-&y=\phi(\sum_i w_i x_i+b)\\
-&\phi(z)= \begin{cases} 1,&if \space z\ge 0\\ 0,&else \end{cases}
+&z=\sum_i w_i x_i+b\\
+&y= \begin{cases} 1,&if \space z\ge 0\\ 0,&else \end{cases}
 \end{aligned}
 $$
-放射函数实际上就是y=ax+b的形式 是线性变换+常数平移 换句话说 线性函数是一条经过原点的直线 是偏移量为0的仿射函数
+仿射函数实际上就是y=ax+b的形式 是线性变换+常数平移 换句话说 线性函数是一条经过原点的直线 是偏移量为0的仿射函数
 为什么要加偏置项b？ 让模型可以自由选择决策边界的位置，而不必强迫边界经过原点。
+
+将z输出一个阈值函数 同时我们也可以替换这个阈值函数 比如平滑一点的sigmoid函数 
+$$
+y=\frac{1}{1+exp(-z)}
+$$
+![Pasted image 20260930183702.png\|400](/img/user/accessory/Pasted%20image%2020260930183702.png)
+或者一些其他的激活函数
+![Pasted image 20260930183726.png\|500](/img/user/accessory/Pasted%20image%2020260930183726.png)
+
 
 当明白了边界这一点 其实就很容易能了解是怎么执行布尔函数 并且了解能执行哪些布尔函数了
 ![Pasted image 20260927211205.png\|500](/img/user/accessory/Pasted%20image%2020260927211205.png)
